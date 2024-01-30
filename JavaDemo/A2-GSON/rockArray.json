@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Stoney0",
+    "weight": 25.0,
+    "location": {
+      "latitude": 40.0,
+      "longitude": 123.0
+    }
+  },
+  {
+    "name": "Stoney1",
+    "weight": 26.0,
+    "location": {
+      "latitude": 41.0,
+      "longitude": 124.0
+    }
+  },
+  {
+    "name": "Stoney2",
+    "weight": 27.0,
+    "location": {
+      "latitude": 42.0,
+      "longitude": 125.0
+    }
+  }
+]

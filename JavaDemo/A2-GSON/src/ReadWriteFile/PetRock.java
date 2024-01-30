@@ -1,3 +1,5 @@
+package ReadWriteFile;
+
 public class PetRock {
     private String name;
     private double weight;
@@ -23,7 +25,7 @@ public class PetRock {
 
     @Override
     public String toString() {
-        return "PetRock{" +
+        return "ReadWriteFile.PetRock{" +
                 "name='" + name + '\'' +
                 ", weight=" + weight +
                 ", location=" + location +

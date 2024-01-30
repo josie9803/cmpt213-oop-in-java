@@ -1,3 +1,5 @@
+package ReadWriteFile;
+
 import com.google.gson.Gson;
 
 import java.io.FileNotFoundException;
@@ -15,7 +17,7 @@ public class Main {
 
         //2.Convert to JSON
         String myJson = gson.toJson(rck);
-        System.out.println(myJson); //print out the JSON format of object PetRock
+        System.out.println(myJson); //print out the JSON format of object ReadWriteFile.PetRock
 
         //3.Write to a file
         try {

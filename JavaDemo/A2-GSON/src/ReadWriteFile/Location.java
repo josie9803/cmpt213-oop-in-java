@@ -1,3 +1,5 @@
+package ReadWriteFile;
+
 public class Location {
     private double latitude;
     private double longitude;
@@ -17,7 +19,7 @@ public class Location {
     //GSON doesn't need this bcuz it will look inside the object using Java-reflection
     @Override
     public String toString() {
-        return "Location{" +
+        return "ReadWriteFile.Location{" +
                 "latitude=" + latitude +
                 ", longitude=" + longitude +
                 '}';
