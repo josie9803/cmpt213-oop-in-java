@@ -1,0 +1,61 @@
+package WaterPurificationSystem.Model;
+
+import java.time.LocalDate;
+import java.util.List;
+
+public class WaterUnit {
+    private String serialNumber;
+    private String model;
+    private List<Test> tests;
+    private LocalDate dateShipped;
+
+    public WaterUnit(String serialNumber, String model, List<Test> tests, LocalDate dateShipped) throws Exception {
+        SerialNumberValidator.validateSerialNumber(serialNumber);
+        this.serialNumber = serialNumber;
+        this.model = model;
+        this.tests = tests;
+        this.dateShipped = dateShipped;
+    }
+
+    public LocalDate getDateShipped() {
+        return dateShipped;
+    }
+
+    public void setDateShipped(LocalDate dateShipped) {
+        this.dateShipped = dateShipped;
+    }
+
+    public String getSerialNumber() {
+        return serialNumber;
+    }
+
+    public void setSerialNumber(String serialNumber) throws Exception {
+        SerialNumberValidator.validateSerialNumber(serialNumber);
+        this.serialNumber = serialNumber;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public List<Test> getTests() {
+        return tests;
+    }
+
+    public Test getMostRecentTest(){
+        return this.getTests().get(this.getTests().size() - 1);
+    }
+
+    public void setTests(Test test) {
+        this.tests.add(test);
+    }
+
+    public boolean isShipped(){
+        return dateShipped == null;
+    }
+
+}
