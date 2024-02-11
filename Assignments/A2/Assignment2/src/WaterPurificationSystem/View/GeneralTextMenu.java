@@ -3,8 +3,10 @@ package WaterPurificationSystem.View;
 import java.util.Scanner;
 
 /**
- * Display a text menu, and read in a menu selection from the keyboard.
+ * Class GeneralTextMenu displays a text menu, and read in a menu selection from the keyboard.
+ * idea inspired from Dr.Brian's A1 sample code
  */
+
 public class GeneralTextMenu {
     private static final int EXTRA_CHARACTERS_IN_TITLE = 4;
     private static final int MINIMUM_SELECTION_NUMBER = 1;
@@ -73,13 +75,11 @@ public class GeneralTextMenu {
     }
 
     private void display() {
-        // Header
         System.out.println();
         displayRowOfStars(title.length());
         displayHeaderTextRow();
         displayRowOfStars(title.length());
 
-        // Menu entries
         for (int i = 0; i < entries.length; i++) {
             int num = i + MINIMUM_SELECTION_NUMBER;
             System.out.println(num + ". " + entries[i].text);

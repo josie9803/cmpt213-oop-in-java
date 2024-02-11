@@ -10,6 +10,12 @@ import java.lang.reflect.Type;
 import java.time.LocalDate;
 import java.util.*;
 
+/**
+ * WaterUnitsManager class manages a list of WaterUnit objects
+ * It includes basic methods such as add, remove, getUnitBySerialNumber
+ * Also contains methods to sort/filter the list, load GSON file
+ */
+
 public class WaterUnitsManager implements Iterable<WaterUnit>{
     static List<WaterUnit> waterUnits = new ArrayList<>();
     @Override

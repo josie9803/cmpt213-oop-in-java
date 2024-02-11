@@ -6,6 +6,11 @@ import java.time.LocalDate;
 import java.util.List;
 import java.util.Scanner;
 
+/**
+ * TextUI class displays the interface of application, interacting with user
+ * TextUI class contains the main loop of the application
+ */
+
 public class TextUI {
     WaterUnitsManager waterUnits;
 
@@ -87,13 +92,10 @@ public class TextUI {
                     w.getSerialNumber(), w.getModel(),
                     w.getDateShipped() != null ? w.getDateShipped() : "-");
             List<Test> tests = w.getTests();
-            if ((tests != null) && (!tests.isEmpty())){
+            if (tests != null){
                 Printer<Test> waterUnitPrinter = new Printer<>();
                 waterUnitPrinter.displayTable(tests, "Tests:",
                                               new String[]{"Date", "Passed", "Test Comments"});
-            }
-            else{
-                System.out.println("No tests.");
             }
         }
     }
@@ -125,6 +127,9 @@ public class TextUI {
 
     private void testUnit(){
         WaterUnit w = processUnitInput();
+        if (w == null){
+            return;
+        }
         Scanner in = new Scanner(System.in);
         boolean testPassed;
         String passedTest;
@@ -146,17 +151,16 @@ public class TextUI {
         System.out.print("Comment: ");
         String comment = in.nextLine();
 
-        if (w != null) {
-            w.setTests(new Test(LocalDate.now(), testPassed, comment));
-            System.out.println("Test recorded.");
-        }
+        w.setTests(new Test(LocalDate.now(), testPassed, comment));
+        System.out.println("Test recorded.");
     }
 
     private void shipUnit(){
         WaterUnit w = processUnitInput();
-        if (w != null) {
-            w.setDateShipped(LocalDate.now());
+        if (w == null){
+            return;
         }
+        w.setDateShipped(LocalDate.now());
         System.out.println("Unit successfully shipped.");
     }
 

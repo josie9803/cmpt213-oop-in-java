@@ -2,6 +2,11 @@ package WaterPurificationSystem.Model;
 
 import java.time.LocalDate;
 
+/**
+ * Test class models the information about a test inside a unit
+ * Data includes LocalDate dateCreated, testPassed, testComment
+ */
+
 public class Test implements Comparable<Test>{
     private final LocalDate date;
     private final boolean isTestPassed;

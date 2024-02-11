@@ -4,6 +4,11 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * WaterUnit class models the information about a water unit in the system
+ * Data includes serialNumber, model, list of Test, LocalDate dateShipped
+ */
+
 public class WaterUnit {
     private String serialNumber;
     private String model;
@@ -48,7 +53,7 @@ public class WaterUnit {
     }
 
     public Test getMostRecentTest(){
-        return this.getTests().get(this.getTests().size() - 1);
+        return this.getTests().getLast();
     }
 
     public void setTests(Test test) {
@@ -61,7 +66,7 @@ public class WaterUnit {
     }
 
     public boolean isShipped(){
-        return dateShipped == null;
+        return dateShipped != null;
     }
 
 }

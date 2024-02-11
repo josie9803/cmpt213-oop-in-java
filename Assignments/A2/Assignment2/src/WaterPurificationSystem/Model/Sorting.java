@@ -2,6 +2,11 @@ package WaterPurificationSystem.Model;
 
 import java.util.Comparator;
 
+/**
+ * Sorting class contains static nested classes that overrides compare method
+ * in Comparator interface for sorting WaterUnit objects based on various criteria.
+ */
+
 public class Sorting {
      static class bySerialNumber implements Comparator<WaterUnit> {
         @Override
