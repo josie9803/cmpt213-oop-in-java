@@ -7,7 +7,7 @@ import WaterPurificationSystem.View.TextUI;
  * Start the application
  */
 public class Main {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         WaterUnitsManager waterUnits = new WaterUnitsManager();
         TextUI ui = new TextUI(waterUnits);
         ui.start();

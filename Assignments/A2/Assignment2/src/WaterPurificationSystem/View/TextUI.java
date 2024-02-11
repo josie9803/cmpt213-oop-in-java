@@ -81,57 +81,21 @@ public class TextUI {
         WaterUnit w = processUnitInput();
         if (w != null) {
             System.out.printf("Unit details:%n" +
-                            "    Serial: %-10s%n" +
-                            "     Model: %-10s%n" +
-                            " Ship Date: %-10s%n",
+                            "    Serial: %s%n" +
+                            "     Model: %s%n" +
+                            " Ship Date: %s%n",
                     w.getSerialNumber(), w.getModel(),
-                    w.getDateShipped() == null ? w.getDateShipped() : "-");
+                    w.getDateShipped() != null ? w.getDateShipped() : "-");
             List<Test> tests = w.getTests();
             if ((tests != null) && (!tests.isEmpty())){
-                System.out.println("Tests");
-                System.out.println("*********");
-                System.out.printf("%-12s %-8s %-15s%n", "Date", "Passed?", "Test Comments");
-                System.out.println("------------  --------  -------------");
-                for (Test test : tests) {
-                    System.out.printf("%-12s %-8s %-15s%n",
-                            test.getDate(),
-                            test.isTestPassed() ? "Passed" : "FAILED",
-                            test.getTestResultComment());
-                }
+                Printer<Test> waterUnitPrinter = new Printer<>();
+                waterUnitPrinter.displayTable(tests, "Tests:",
+                                              new String[]{"Date", "Passed", "Test Comments"});
             }
             else{
                 System.out.println("No tests.");
             }
         }
-    }
-    private void testUnit(){
-        WaterUnit w = processUnitInput();
-
-        System.out.println("Pass? (Y/n): ");
-        Scanner in = new Scanner(System.in);
-
-        String passedTest = in.nextLine();
-        Test test = new Test(LocalDate.now(), false, null);
-
-        //need to handle the case user enter not y or n --> loop
-        if (passedTest.isBlank() || passedTest.equals("y") || passedTest.equals("Y")){
-            test.setTestPassed(true);
-        }
-
-        System.out.println("Comment: ");
-        String comment = in.nextLine();
-        test.setTestResultComment(comment);
-
-        if (w != null) {
-            w.setTests(test);
-        }
-        System.out.println("Test recorded.");
-    }
-
-    private void shipUnit(){
-        WaterUnit w = processUnitInput();
-        w.setDateShipped(LocalDate.now());
-        System.out.println("Unit successfully shipped.");
     }
 
     private void createUnit(){
@@ -149,21 +113,51 @@ public class TextUI {
             if (serialNumber.isBlank()) { return; }
             try {
                 SerialNumberValidator.validateSerialNumber(serialNumber);
+                waterUnits.add(new WaterUnit(serialNumber, model, null, null));
+                break;
             } catch (Exception e) {
                 System.out.println("Unable to add the product.\n" +
-                        "     'Serial Number Error: Checksum does not match.'");
-                continue;
+                        "     'Serial Number Error: Checksum does not match.'\n" +
+                        "Please try again.");
             }
-            break;
+        }
+    }
+
+    private void testUnit(){
+        WaterUnit w = processUnitInput();
+        Scanner in = new Scanner(System.in);
+        boolean testPassed;
+        String passedTest;
+
+        System.out.print("Pass? (Y/n): ");
+        while(true){
+            passedTest = in.nextLine().trim().toLowerCase();
+            if (passedTest.isBlank() || passedTest.equals("y")) {
+                testPassed = true;
+                break;
+            }
+            else if (passedTest.equals("n")){
+                testPassed = false;
+                break;
+            }
+            System.out.print("Error: Please enter [Y]es or [N]o ");
         }
 
-        WaterUnit createdUnit = null;
-        try {
-            createdUnit = new WaterUnit(serialNumber, model, null, null);
-        } catch (Exception e) {
-            throw new RuntimeException(e);
+        System.out.print("Comment: ");
+        String comment = in.nextLine();
+
+        if (w != null) {
+            w.setTests(new Test(LocalDate.now(), testPassed, comment));
+            System.out.println("Test recorded.");
         }
-        waterUnits.add(createdUnit);
+    }
+
+    private void shipUnit(){
+        WaterUnit w = processUnitInput();
+        if (w != null) {
+            w.setDateShipped(LocalDate.now());
+        }
+        System.out.println("Unit successfully shipped.");
     }
 
     private void printReport(){
@@ -178,48 +172,22 @@ public class TextUI {
         reportOptions.doOption();
     }
     private void printAll(){
-//        System.out.println("List of Water Purification Units:\n" +
-//                "*************************************");
-//        System.out.format("%-10s %-15s %-10s %-10s%n", "Model", "Serial Number", "# Tests", "Ship Date");
-//        System.out.println("---------  --------------  ---------  ----------");
-//
-//        for (WaterUnit waterUnit : this.waterUnits.getWaterUnits()) {
-//            System.out.format("%-10s %-15s %-10s %-10s%n",
-//                    waterUnit.getModel(),
-//                    waterUnit.getSerialNumber(),
-//                    waterUnit.getTests().size(),
-//                    waterUnit.getDateShipped() != null ? waterUnit.getDateShipped() : "-");
-//        }
-        Printer.displayTable(waterUnits, "List of Water Purification Units:",
-                new String[]{"Model", "Serial Number", "# Tests", "Ship Date"});
+        Printer<WaterUnit> waterUnitPrinter = new Printer<>();
+        waterUnitPrinter.displayTable(this.waterUnits.getWaterUnits(),
+                                "List of Water Purification Units:",
+                                     new String[]{"Model", "Serial", "# Tests", "Ship Date"});
     }
     private void printDefective(){
-        System.out.println("DEFECTIVE Water Purification Units:\n" +
-                "***************************************");
-        System.out.format("%-10s %-15s %-25s %-15s %-20s%n", "Model", "Serial Number", "# Tests", "Test Date", "Comments");
-        System.out.println("----------  ---------------  ----------  ----------");
-
-        for (WaterUnit waterUnit : this.waterUnits.getDefectiveUnits()) {
-            System.out.format("%-10s %-15s %-25s %-15s %-20s%n",
-                    waterUnit.getModel(),
-                    waterUnit.getSerialNumber(),
-                    waterUnit.getTests().size(),
-                    waterUnit.getMostRecentTest().getDate(),
-                    waterUnit.getMostRecentTest().getTestResultComment());
-        }
+        Printer<WaterUnit> waterUnitPrinter = new Printer<>();
+        waterUnitPrinter.displayTable(this.waterUnits.getDefectiveUnits(),
+                                "DEFECTIVE Water Purification Units:",
+                                     new String[]{"Model", "Serial", "# Tests", "Test Date", "Test Comments"});
     }
     private void printReadyToShip(){
-        System.out.println("READ-TO-SHIP Water Purification Units:\n" +
-                "******************************************");
-        System.out.format("%-10s %-15s %-25s%n", "Model", "Serial Number", "Test Date");
-        System.out.println("---------  --------------  ----------");
-
-        for (WaterUnit waterUnit : this.waterUnits.getReadyToShipUnits()) {
-            System.out.format("%-10s %-15s %-25s%n",
-                    waterUnit.getModel(),
-                    waterUnit.getSerialNumber(),
-                    waterUnit.getMostRecentTest().getDate());
-        }
+        Printer<WaterUnit> waterUnitPrinter = new Printer<>();
+        waterUnitPrinter.displayTable(this.waterUnits.getReadyToShipUnits(),
+                                "READY-TO-SHIP Water Purification Units:",
+                                     new String[]{"Model", "Serial", "Test Date"});
     }
     private void setReportSortOrder(){
         GeneralTextMenu.MenuEntry[] menuEntries = new GeneralTextMenu.MenuEntry[]{

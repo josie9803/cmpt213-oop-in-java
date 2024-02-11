@@ -1,6 +1,7 @@
 package WaterPurificationSystem.Model;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.List;
 
 public class WaterUnit {
@@ -51,7 +52,12 @@ public class WaterUnit {
     }
 
     public void setTests(Test test) {
-        this.tests.add(test);
+        if (this.tests == null){
+            List<Test> emptyTest = new ArrayList<>();
+            emptyTest.add(test);
+            this.tests = emptyTest;
+        }
+        else {this.tests.add(test);}
     }
 
     public boolean isShipped(){

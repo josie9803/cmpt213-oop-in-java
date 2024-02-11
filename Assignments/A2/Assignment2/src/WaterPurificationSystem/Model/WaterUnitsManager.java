@@ -17,16 +17,13 @@ public class WaterUnitsManager implements Iterable<WaterUnit>{
         return waterUnits.iterator();
     }
 
-    public int getSize() {
-        return waterUnits.size();
-    }
-
     public boolean isEmpty() {
         return waterUnits.isEmpty();
     }
 
     public void add(WaterUnit unit){
         waterUnits.add(unit);
+        sortBySerialNumber();
     }
 
     public WaterUnit getUnitBySerialNumber(String serialNumber){
@@ -84,6 +81,7 @@ public class WaterUnitsManager implements Iterable<WaterUnit>{
             FileReader reader = new FileReader(filePath);
             Type waterListType = new TypeToken<ArrayList<WaterUnit>>(){}.getType();
             waterUnits = gson.fromJson(reader, waterListType);
+            sortBySerialNumber();
             System.out.println("Read " + waterUnits.size() + " products from JSON file '" + filePath + "'");
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);

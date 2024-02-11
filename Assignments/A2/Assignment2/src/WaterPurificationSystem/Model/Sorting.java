@@ -32,14 +32,13 @@ public class Sorting {
         @Override
         public int compare(WaterUnit unit1, WaterUnit unit2) {
             if (unit1.getTests().isEmpty() && unit2.getTests().isEmpty()) {
-                return 0; // No specified order among units with no tests
+                return 0;
             } else if (unit1.getTests().isEmpty()) {
-                return 1; // Units with no tests come after units with tests
+                return 1;
             } else if (unit2.getTests().isEmpty()) {
-                return -1; // Units with tests come before units with no tests
+                return -1;
             }
 
-            // Compare by the date of the most recent test
             return unit1.getMostRecentTest().compareTo(unit2.getMostRecentTest());
         }
     }
