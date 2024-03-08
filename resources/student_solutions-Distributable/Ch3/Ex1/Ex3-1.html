@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+</head>
+<body>
+<ul>
+  <li>Total orderings on String objects: <br>
+    <ol>
+      <li>The most commonly used total ordering is the lexicographic
+(ie dictionary) order of the string. This is the ordering used by the
+method <code>compareTo()</code>.</li>
+      <li>Another total ordering can be achieved as follows: Write the
+string <i>s</i> with characters <i>s</i><sub>0</sub><i>s</i><sub>1</sub><i>.
+. .</i><i>s<sub>n-</sub></i><sub>1</sub><i>s<sub>n</sub></i><i>&nbsp;</i>
+as a number in base 65536, i.e. <i>n</i>(<i>s</i>)<i> </i>= &#931; <i>s<sub>i</sub>
+65536<sup>i</sup></i>. Then define <i>s</i> &#8804; <i>t</i> iff <i>n</i>(<i>s</i>)
+&#8804; <i>n</i>(<i>t</i>)
+        <pre>    </pre>
+        <p></p>
+      </li>
+    </ol>
+  </li>
+  <li>Partial orderings on String objects:
+    <ol>
+      <li>Order by length: for Strings <i>s</i> and <i>t</i>, <i>s</i>
+&#8804; <i>t</i> iff <i>s</i>.length() &#8804; <i>t</i>.length().</li>
+    </ol>
+  </li>
+</ul>
+</body>
+</html>

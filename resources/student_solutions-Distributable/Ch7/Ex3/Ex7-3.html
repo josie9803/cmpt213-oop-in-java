@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+</head>
+<body>
+Note that each is a subtype of itself by rule 1, but we ignore that
+possibility.
+<ol type="a">
+  <li>Object: not a subtype </li>
+  <li>int: not a subtype </li>
+  <li>long: not a subtype </li>
+  <li>int[]: subtype of Object by rule 6, of Cloneable by rule 7 </li>
+  <li>Object[]: subtype of Object by rule 6, of Cloneable by rule 7 </li>
+  <li>int[][]: subtype of Object[] by rule 5, of Object by rule 6, of
+Cloneable by rule 7 </li>
+  <li>Rectangle: subtype of Cloneable by rule 3, of Object by rule 6 </li>
+  <li>Rectangle[]: subtype of Rectangle2D[] and Object[] by rule 5, of
+Object by rule 6, of Cloneable by rule 7 </li>
+  <li>Rectangle2D[]: subtype of Object[] by rule 5, of Object by rule 6,
+of Cloneable by rule 7 </li>
+  <li>Cloneable: subtype of Object by rule 6
+  </li>
+</ol>
+</body>
+</html>

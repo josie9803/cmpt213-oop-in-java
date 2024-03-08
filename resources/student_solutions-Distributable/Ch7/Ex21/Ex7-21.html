@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+</head>
+<body>
+<p>The <tt>ArrayList</tt> class has two instance fields:&nbsp;</p>
+<pre> private transient E[] elementData;<br> private int size;<br></pre>
+<p>The <tt>writeObject</tt> method first calls <tt>defaultWriteObject</tt>,
+which saves the <tt>size</tt> field but not the transient <tt>elementData</tt>.
+Then it saves <tt>elementData.length</tt> and the array elements. <br>
+</p>
+<p>The <tt>readObject</tt> method reverses this process. <br>
+</p>
+<p>This seems like a lot of unnecessary. Suppose the <tt>writeObject</tt>/<tt>readObject</tt>
+methods had not been defined and <tt>elementData</tt> had not been
+declared <tt>transient</tt>. Then the standard serialization would
+have correctly serialized both <tt>elementData</tt> and <tt>size</tt>.<br>
+</p>
+<p>The reason is efficiency. First, one saves the overhead of the array
+descriptor. Moreover, the <tt>null</tt> entries beyond <tt>size</tt>
+are not saved. <br>
+</p>
+<br>
+</body>
+</html>

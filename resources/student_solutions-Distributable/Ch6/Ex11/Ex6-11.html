@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+</head>
+<body>
+Abstract classes in the graphics library include
+<ol>
+  <li><tt>java.awt.Graphics </tt></li>
+  <li><tt>java.awt.Graphics2D </tt></li>
+  <li><tt>java.awt.Image</tt>
+  </li>
+</ol>
+<p>
+Abstract methods in the graphics library include
+</p>
+<ol>
+  <li>in class <tt>java.awt.Graphics:</tt>
+    <ol>
+      <li><tt>abstract void clearRect(int x, int y, int width, int
+height) </tt></li>
+      <li><tt>abstract void clipRect(int x, int y, int width, int
+height) </tt></li>
+      <li><tt>abstract void copyArea(int x, int y, int width, int
+height, int dx, int dy) </tt></li>
+      <li><tt>abstract Graphics create() </tt></li>
+      <li><tt>abstract boolean drawImage(Image img, int x, int y, Color
+bgcolor, ImageObserver observer)</tt> </li>
+    </ol>
+  </li>
+  <li>in class <tt>java.awt.Graphics2D: </tt>
+    <ol>
+      <li><tt>abstract boolean drawImage(Image img, AffineTransform
+xform, ImageObserver obs) </tt></li>
+      <li><tt>abstract void addRenderingHints(Map&lt;?,?&gt; hints) </tt></li>
+      <li><tt>abstract void clip(Shape s) </tt></li>
+      <li><tt>abstract void draw(Shape s)</tt> </li>
+    </ol>
+  </li>
+  <li>in <tt>java.awt.Image </tt>
+    <ol>
+      <li><tt>abstract int getWidth() </tt></li>
+      <li><tt>abstract int getHeight()</tt></li>
+      <li><tt>abstract Graphics getGraphics()</tt><br>
+      </li>
+    </ol>
+  </li>
+</ol>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+</head>
+<body>
+The steps carried out in the builder tool (NetBeans 4.1) are:
+<ol>
+  <li>If you have not already done so, choose the Tools -&gt; Palette
+Manager menu option and install the Carbean.jar file. Place the bean
+into the Beans panel.&nbsp; </li>
+  <li>Select File -&gt; New Project to create a new project of type
+"Java Application". </li>
+  <li>Right-click on the project and select New -&gt; JFrame form. </li>
+  <li>In the &#8220;Swing&#8221; palette, click on the JSlider button. Then click
+on the bottom of
+the JFrame. A slider is now added to the form. </li>
+  <li>Repeat the previous step to add another slider to the side of the
+form. Use the property sheet to change its orientation to vertical. </li>
+  <li>In the &#8220;Beans&#8221; palette, click on the CarBean button. </li>
+  <li>Click in the center of the JFrame. The CarBean is now added to
+the form. </li>
+  <li>In the builder tool, right-click on the bottom slider and select
+the menu option Events &#8594;
+Change &#8594; stateChanged. </li>
+  <li>The builder tool pops up the source window and positions your
+cursor next to a
+comment<br>
+    <code>// TODO Add your handling code here:</code> </li>
+  <li>Add the code<br>
+    <code>carBean1.setX(jSlider1.getValue());</code> </li>
+  <li>Click on the Design button to return to the form designer.<br>
+  </li>
+  <li>Repeat the preceding steps for the other slider, this time adding
+the code<br>
+    <code>carBean1.setY(jSlider2.getValue());</code> </li>
+  <li>Set the <tt>value</tt> properties of both sliders to 0.<br>
+  </li>
+  <li>Select Run -&gt; Run File to execute the program. Now the sliders
+move the car position.
+  </li>
+</ol>
+</body>
+</html>

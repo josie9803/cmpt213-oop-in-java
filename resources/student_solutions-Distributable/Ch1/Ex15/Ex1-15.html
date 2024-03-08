@@ -1,0 +1,40 @@
+<HTML>
+  
+  <HEAD>
+    <TITLE></TITLE>
+  </HEAD>
+  
+  <BODY>
+    
+    <P>
+    If the current directory is <code>foo</code>, then the java source 
+    files should be organized as follows:
+
+    <pre>
+    foo/GreeterTest.java 
+
+    foo/edu/sjsu/cs/CS200/johnDoe/Greeter.java 
+    </pre>
+
+    The following commands (executed from directory foo) 
+    will compile <code>Greeter</code> and
+    <code>GreeterTest</code> and
+    execute <code>GreeterTest</code>.
+    <pre>
+    javac GreeterTest.java
+    javac GreeterTest
+    </pre>
+
+    After compilation, the files will be organized as follows:
+
+    <pre>
+    foo/GreeterTest.java 
+    foo/GreeterTest.class 
+
+    foo/edu/sjsu/cs/CS200/johnDoe/Greeter.java 
+    foo/edu/sjsu/cs/CS200/johnDoe/Greeter.class 
+    </pre>
+    
+    </P>
+  </BODY>
+</HTML>

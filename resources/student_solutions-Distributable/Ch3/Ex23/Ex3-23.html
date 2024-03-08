@@ -1,0 +1,22 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+</head>
+<body>
+A solution that allows the programmer to peek at the next input
+character
+without actually doing the read is more flexible than the solution in
+PushBackReader which forces the user to do a read and then put the
+character back
+if it is not needed. The ability to peek at the next character allows
+the
+programmer to peek from several locations without being concerned about
+when to put the character back and whether it has been put back.
+<p>Another problem is that the character to be put back in the
+buffer must be stored in a variable which introduces potential for
+error if
+the wrong character is put back. This can also be a feature in certain
+unusual circumstances.
+</p>
+</body>
+</html>

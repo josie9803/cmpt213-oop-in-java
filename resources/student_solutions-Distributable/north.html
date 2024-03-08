@@ -1,0 +1,60 @@
+<html><head><title>
+</title>
+<script language="javascript" type="text/javascript">
+function selectValue(select)
+{
+   return select.options[select.selectedIndex].value;
+}
+
+function loadSolution(form)
+{
+   chapter = selectValue(form.chapter);
+   exercise = selectValue(form.exercise);
+   max = [ 0, 28, 20, 28, 22, 17, 21, 30, 19, 18, 15 ];
+   if (exercise <= max[chapter])
+      url = "Ch" + chapter + "/Ex" + exercise + "/index.html";
+   else
+      url="center.html";
+   top.center.location = url;
+}
+
+</script>
+</head>
+<body>
+<form name="selector">
+<p>Chapter
+<select name="chapter" onChange="loadSolution(document.selector)">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+</select>
+Exercise
+<select name="exercise" onChange="loadSolution(document.selector)">
+<option value="1">1</option>
+<option value="3">3</option>
+<option value="5">5</option>
+<option value="7">7</option>
+<option value="9">9</option>
+<option value="11">11</option>
+<option value="13">13</option>
+<option value="15">15</option>
+<option value="17">17</option>
+<option value="19">19</option>
+<option value="21">21</option>
+<option value="23">23</option>
+<option value="25">25</option>
+<option value="27">27</option>
+<option value="29">29</option>
+<option value="31">31</option>
+</select>
+</p>
+</form>
+
+</body></html>

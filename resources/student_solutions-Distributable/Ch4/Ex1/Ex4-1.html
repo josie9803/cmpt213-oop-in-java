@@ -1,0 +1,11 @@
+
+The sort method compares one object with another by calling the method
+<code>compareTo()</code>.  When the sort method is being compiled,
+the type of the objects being compared is not known, and so it is not
+possible to determine what <code>compareTo()</code> method should be
+called.  This decision is left until runtime, and it is polymorphism that
+makes it possible for the runtime system 
+to find and use the <code>compareTo()</code> method
+from the class of the object that is used for the comparison.
+
+

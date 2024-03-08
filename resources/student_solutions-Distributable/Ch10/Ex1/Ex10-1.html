@@ -1,0 +1,25 @@
+
+Method <code>enumeration</code> is designed to solve a problem that is
+similar to the problem solved by adaptors.  It makes it possible to use a
+<code>Collection</code> in a context in which an <code>Enumeration</code> 
+is required.  Similarly, method <code>list</code> makes it possible to use
+an <code>Enumeration</code> in a context in which a <code>Collection</code>
+is required.  
+
+<p> 
+However, the mechanism for solving the problem does not follow the Adaptor
+pattern since it uses methods that convert between 
+<code>Enumeration</code>s and <code>Collection</code>s rather than Adaptor
+classes that map the methods of one class into those of another.
+
+<p> 
+Of course, the implementation of the method <code>enumeration</code>
+returns an instance of an anonymous class that is an <code> Iterator</code>
+Adaptor since it translates <code>Enumeration</code> methods into 
+<code> Iterator</code> methods.
+
+<p> 
+Note also that the methods <code> enumeration</code> and <code> list</code>
+could be used to implement classes that adapt 
+<code> Enumeration</code>s to <code> Collection</code>s and vice versa.
+

@@ -1,0 +1,25 @@
+
+            The stream classes form a framework because they
+are a set of cooperating classes that implement the mechanisms needed
+for doing various kinds of stream input operations in application programs.
+The programmer can add new stream classes without modifying the existing
+stream classes and without even knowing details of the internal mechanisms 
+of the implementation of the existing classes.  
+Instead, the stream classes provide hooks such as the
+<code>read</code> method by which the
+application programmer can specify the behavior of the new class.
+The stream classes use patterns, such as the Decorator and Template Method
+patterns, another mark of a framework.
+
+<p> 
+A programmer can add a new stream class by defining a subclass of class
+<code>InputStream</code> and providing an implementation for the method
+<code>read</code>  which returns a single byte.
+
+In doing so, the newly created class automatically gains methods such as 
+<code>available, mark, </code> and <code>close</code>, as well as a
+<code>read</code> method that will read an array of bytes.
+The newly created class can also be given additional functionality as
+needed by  using the existing decorator
+classes in the framework such as <code>PushBackInputStream</code>.
+

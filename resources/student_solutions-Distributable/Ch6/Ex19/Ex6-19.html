@@ -1,0 +1,57 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+</head>
+<body>
+Examples of <code> protected </code>
+methods and fields include the following:
+<ol>
+  <li><tt> javax.swing.ImageIcon </tt>
+    <ol>
+      <li><tt>protected static Component component </tt></li>
+      <li><tt>protected static MediaTracker tracker </tt></li>
+      <li><tt>protected void loadImage(Image image) </tt></li>
+    </ol>
+  </li>
+  <li><tt>javax.swing.AbstractButton </tt>
+    <ol>
+      <li><tt>protected ActionListener actionListener </tt></li>
+      <li><tt>protected ChangeEvent changeEvent </tt></li>
+      <li><tt>protected ChangeListener changeListener </tt></li>
+      <li><tt>protected ItemListener itemListener </tt></li>
+      <li><tt>protected ButtonModel model </tt></li>
+      <li><tt>protected int checkHorizontalKey(int key, String
+exception) </tt></li>
+      <li><tt>protected int checkVerticalKey(int key, String exception)
+        </tt></li>
+      <li><tt>protected void configurePropertiesFromAction(Action a) </tt></li>
+      <li><tt>protected ActionListener createActionListener() </tt></li>
+      <li><tt>protected PropertyChangeListener
+createActionPropertyChangeListener(Action a) </tt></li>
+    </ol>
+  </li>
+  <li><tt>java.lang.Object </tt>
+    <ol>
+      <li><tt>protected Object clone() </tt></li>
+      <li><tt>protected void finalize()</tt> </li>
+    </ol>
+  </li>
+</ol>
+<p> A hostile child class of one of these classes
+would be able to modify the protected fields in an
+instance of itself, however it would not be able to modify these fields
+in
+an instance of any other child of the parent. Protected fields are also
+visible within the package, however the hostile code cannot add itself
+to
+the package and so it can't attack in this way either. Thus, the fields
+are safe from attack.
+</p>
+<p>The primary difficulty with protected fields is not modification by
+hostile code, but dependencies between parent and child classes that
+occur
+when the child directly accesses the protected fields. This
+increases coupling between the child and its parent and makes it more
+difficult in the future to modify the parent.</p>
+</body>
+</html>

@@ -1,0 +1,15 @@
+
+If it were possible for a subclass method to throw more exceptions than a
+method that it overrides, then the exception 
+checking mechanism could be defeated, as shown in this example:
+<pre>
+   T t = new S();  // S is a subclass of T
+   t.m();          // Assume that m() in S throws more 
+                   //  checked exceptions than m() in T throws.
+</pre>
+In this case, the compiler only considers the exceptions thrown by
+method m() in class T.  
+However, since t points to an object from class S, 
+the call t.m() could cause a checked exception to be thrown that the
+compiler would not be aware of.
+

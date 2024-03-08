@@ -1,0 +1,58 @@
+
+Interfaces would be as follows: 
+<ul>
+   <li><code>ReadOnlyCollection</code> does not have add/remove
+   <li><code>Collection</code> has add and remove (not optional)
+
+   <p> 
+   <li><code>ReadOnlyList</code> does not have add/remove, set
+   <li><code>ModifiableList</code> has set, but not add/remove
+   <li><code>List</code> has add/remove and set (not optional)
+
+   <p> 
+   <li><code>ReadOnlySet</code> does not have add/remove
+   <li><code>Set</code> has add/remove, but not set (like current Set)
+
+   <p> 
+   <li><code>ReadOnlyIterator</code> does not have remove
+   <li><code>Iteraltor</code>
+
+   <p> 
+   <li><code>ReadOnlyListIterator</code> does not have remove and set
+   <li><code>ModifiableListIterator</code> has set but not add/remove
+   <li><code>ListIteraltor</code>
+</ul>
+
+Note that "modifiable" makes sense for indexed collections only.
+
+<p> 
+Abstract classes would be as follows: 
+<ul>
+   <li><code>AbstractReadOnlyCollection</code>
+   <li><code>AbstractCollection</code> extends
+   <code>AbstractReadOnlyCollection</code>
+
+   <p> 
+   <li><code>AbstractReadOnlyList</code> 
+   <li><code>AbstractModifiableList</code> extends
+   <code>AbstractReadOnlyList</code>
+   <li><code>AbstractList</code> extends
+   <code>AbstractModifiableList</code> and copies
+   operations from <code>AbstractCollection</code>.
+</ul>
+
+<p>Note that <code>AbstractList</code> could extend
+<code>AbstractCollection</code> and copy operations from
+<code>AbstractModifiableList</code>.  
+
+<p> 
+In class <code>Arrays</code>, 
+method <code>asList</code> should be modified to return a
+<code>ModifiableList</code>.
+
+<p> 
+Class <code>Collections</code> 
+should add method <code>modifiableList</code>, and method
+<code>unmodifiableList</code> should be modified to return a
+<code>ReadOnlyList</code>.
+

@@ -1,0 +1,36 @@
+
+In an application such as the  
+<code>SimpleGraph</code> example from the text, the applications programmer
+provides classes for the concrete <code>node</code>and<code>edge</code>
+and for the <code>SimpleGraph</code>.
+The method <code>main</code> simply creates and shows a 
+<code>GraphFrame</code>, and it is done.  
+<p> 
+When a user clicks on the toolbar, the code in toolbar responds to the
+event by calling method <code>contains</code> 
+to determine which icon was selected and
+then calling <code>clone</code> 
+to create an new instance of the corresponding node.
+In the sequence of calls needed to accomplish this action, 
+the methods 
+<code>contains</code> and <code>clone</code> were written by the applications
+programmer; the remaining methods are part of the framework.  
+Thus the applications programmer's methods are called by the
+framework, not by code produced by the applications programmer.
+Control then does not remain in the application programmer's code which is
+an inversion of control.
+<p>
+Similarly, when the user clicks on the <code>GraphPanel</code> 
+to place a node into the graph, the <code>GraphPanel</code> calls the
+application programmer's <code>draw</code> method to draw the
+<code>node</code>.
+Again, the control is not in the code written by the applications
+programmer.  Instead it is in the code that is part of the framework.
+<p> 
+Furthermore, the code that actually identfies the events and calls the
+event listeners is not in the graph framework.  Instead it is in the awt
+framework.  So the awt framework is calling code in the graph framework
+which is calling code that was written by the applications programmer.
+All of this occurs after the applications progrmamer's method <code>main</code>
+has executed all of its statements.
+

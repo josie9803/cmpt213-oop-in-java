@@ -1,0 +1,139 @@
+
+<ol>
+   <li>Composite Pattern
+   <table border=2>
+      <tr>
+         <td>Name in Design Pattern</td>
+         <td>Actual Name </td>
+      </tr>
+      <tr>
+         <td>Primitive</td>
+         <td>LineItem</td>
+      </tr>
+      <tr>
+         <td>Composite</td>
+         <td>Bundle</td>
+      </tr>
+      <tr>
+         <td>Leaf</td>
+         <td>Product</td>
+      </tr>
+      <tr>
+         <td>method()</td>
+         <td>getPrice()</td>
+      </tr>
+   </table>
+   <li>Decorator Pattern
+   <table border=2>
+      <tr>
+         <td>Name in Design Pattern</td>
+         <td>Actual Name </td>
+      </tr>
+      <tr>
+         <td>Component</td>
+         <td>LineItem</td>
+      </tr>
+      <tr>
+         <td>ConcreteComponent</td>
+         <td>Product</td>
+      </tr>
+      <tr>
+         <td>Decorator</td>
+         <td>DiscountedItem</td>
+      </tr>
+      <tr>
+         <td>method()</td>
+         <td>getPrice()</td>
+      </tr>
+   </table>
+   <li>Observer Pattern
+   <table border=2>
+      <tr>
+         <td>Name in Design Pattern</td>
+         <td>Actual Name </td>
+      </tr>
+      <tr>
+         <td>Subject</td>
+         <td>Invoice</td>
+      </tr>
+      <tr>
+         <td>Observer</td>
+         <td>ChangeListener</td>
+      </tr>
+      <tr>
+         <td>ConcreteObserver</td>
+         <td>Anonymous class that implements ChangeListener</td>
+      </tr>
+      <tr>
+         <td>attach()</td>
+         <td>addChangeListener()</td>
+      </tr>
+      <tr>
+         <td>notify()</td>
+         <td>stateChanged()</td>
+      </tr>
+   </table>
+   <li>Iterator Pattern
+   <table border=2>
+      <tr>
+         <td>Name in Design Pattern</td>
+         <td>Actual Name </td>
+      </tr>
+      <tr>
+         <td>Aggregate</td>
+         <td>None</td>
+      </tr>
+      <tr>
+         <td>ConcreteAggregate</td>
+         <td>Invoice</td>
+      </tr>
+      <tr>
+         <td>Iterator</td>
+         <td>Iterator</td>
+      </tr>
+      <tr>
+         <td>ConcreteIterator</td>
+         <td>Anonymous class that implements Iterator</td>
+      </tr>
+      <tr>
+         <td>createIterator()</td>
+         <td>getItems()</td>
+      </tr>
+      <tr>
+         <td>next()</td>
+         <td>next()</td>
+      </tr>
+      <tr>
+         <td>isDone()</td>
+         <td>hasNext()</td>
+      </tr>
+      <tr>
+         <td>currentItem()</td>
+         <td>Not implemented</td>
+      </tr>
+   </table>
+   <li>Strategy Pattern
+   <table border=2>
+      <tr>
+         <td>Name in Design Pattern</td>
+         <td>Actual Name</td>
+      </tr>
+      <tr>
+         <td>Context</td>
+         <td>Invoice</td>
+      </tr>
+      <tr>
+         <td>Strategy</td>
+         <td>InvoiceFormatter</td>
+      </tr>
+      <tr>
+         <td>ConcreteStrategy</td>
+         <td>SimpleFormatter</td>
+      </tr>
+      <tr>
+         <td>doWork()</td>
+         <td>formatHeader()<br>formatLineItem()<br>formatFooter()</td>
+      </tr>
+   </table>
+</ol>
+

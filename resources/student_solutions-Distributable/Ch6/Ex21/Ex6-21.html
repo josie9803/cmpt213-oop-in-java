@@ -1,0 +1,44 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+</head>
+<body>
+Considering only their mathematical properties, every square is also a
+rectangle, and so we could say that a <tt>Square</tt> passes the
+conceptual is-a test. However when behavior is considered, then a <tt>Square</tt>'s
+behavior will
+probably be different from that of a <tt>Rectangle</tt> which would
+cause it to
+fail the Liskov substitution test.
+<p> What happens, for example, if class <tt>Rectangle</tt> has a
+method such as <tt>setWidth</tt> that changes a <tt>Rectangle</tt>'s
+width without changing its height.
+If class <tt>Square</tt> does not override this method, then it will
+be possible to
+create a instance of class <tt>Square</tt> whose width and height are
+not equal. Clearly something must be done to avoid this situation. One
+possible solution is to override method <tt>setWidth</tt> in <tt>Square</tt>
+so that it changes the
+both the width and height to the same value. This solution however
+causes a <tt>Square</tt> to not be substitutable for a <tt>Rectangle</tt>,
+as in this
+example:
+</p>
+<pre>// Double the width of r but keep its area the same <br>void reshape(Rectangle r)<br>{<br>   r.setWidth(r.getWidth() * 2);<br>   r.setHeight(r.getHeight() / 2); <br>}<br><br>...<br><br>Rectangle r = new Rectangle(5, 5);<br>reshape(r);<br><br>r = new Square(5);<br>reshape(r);<br></pre>
+If <tt>setWidth</tt> and <tt>setHeight</tt> both set both the length
+and width to preserve
+the squareness property, then the two calls to reshape will have
+different
+effects on <tt>Rectangle</tt> r.
+Thus, class <tt>Square</tt> fails the Liskov substitutability test.
+<p>Another possible solution is to override <tt>setWidth</tt> and <tt>setHeight</tt>
+so that
+they do nothing. This too fails the substitutability test.
+</p>
+<p>Note that if <tt>Rectangle</tt> only has accessor methods such as <tt>getArea</tt>,
+and
+mutator methods, such as <tt>translate</tt> or <tt>scale</tt>, that
+leave the sides of a square equal, then class <tt>Square</tt> can pass
+the substitutability test.</p>
+</body>
+</html>

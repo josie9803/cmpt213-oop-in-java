@@ -1,0 +1,11 @@
+
+If this version of <code>toString</code> is called on an object that
+contains a field that is of reference type, then <code>toString</code>
+will be called recursively on the object referenced by that field.
+If a group of objects contain fields whose values are references 
+that form a cycle (ie it is possible to travel from an object back to itself
+by following references in fields), then calling <code>toString</code>
+on one of the objects that leads to the cycle will cause infinite recursion.
+This mutual recursion with no base case to stop it will execute until the
+an <code>StackOverflowError</code> occurs.
+

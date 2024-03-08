@@ -1,0 +1,24 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+</head>
+<body>
+The difference is very subtle. Consider the <tt>newInstance</tt>
+method. The return type of <tt>Class&lt;T&gt;.newInstance()</tt> is <tt>T</tt>.
+If we have a <tt>Class&lt;?&gt;</tt> variable, we know that <tt>newInstance</tt>
+returns an object of the parameter type of the <tt>Class</tt> object,
+whatever that type may be. Calling <tt>newInstance</tt> twice yields <i>two
+objects of the same class</i>. If we have a <tt>Class</tt> variable,
+then we only know that <tt>newInstance</tt> returns an <tt>Object</tt>.
+The compiler must assume that a second call to <tt>newInstance</tt>
+might yield an object of a different class.<br>
+<br>
+The following program shows this subtle difference. The <tt>makeList</tt>
+method repeatedly calls <tt>newInstance</tt>. It can be safely called
+with a <tt>Class&lt;?&gt;</tt> but not a <tt>Class</tt>.<br>
+<br>
+<hr size="2" width="100%">
+<pre>import java.lang.reflect.*;<br>import java.util.*;<br><br>public class Test<br>{<br>   public static &lt;T&gt; ArrayList&lt;T&gt; makeList(Class&lt;T&gt; cl, int n) <br>         throws Exception<br>   {<br>      ArrayList&lt;T&gt; r = new ArrayList&lt;T&gt;();<br>      for (int i = 0; i &lt; n; i++)<br>         r.add(cl.newInstance());<br>      return r;<br>   }<br><br><br>   public static void main(String[] args)<br>         throws Exception<br>   {<br>      ArrayList&lt;String&gt; a = makeList(String.class, 10); // ok<br><br>      Class&lt;?&gt; cl1 = Class.forName("java.lang.String");<br>      Class cl2 = Class.forName("java.lang.String");<br><br>      ArrayList&lt;?&gt; a1 = makeList(cl1, 10); // ok<br>      ArrayList a2 = makeList(cl2, 10); // warning: unsafe to convert Class to Class&lt;?&gt;<br>   }<br>}<br></pre>
+<hr size="2" width="100%"><br>
+</body>
+</html>

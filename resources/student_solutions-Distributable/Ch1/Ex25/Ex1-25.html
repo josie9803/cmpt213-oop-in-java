@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+<p> Violations of good coding style in class <tt>java.lang.String</tt>
+include the following: </p>
+<ul>
+  <li>Braces are formatted in both Allman and Kernighan and Ritchie
+styles. </li>
+  <li>Arrays declared in C style </li>
+  <li>Uses magic numbers, eg. 10, 31 </li>
+  <li>At least one method (<tt>checkBounds</tt>) does not have
+parameters commented </li>
+</ul>
+<p>Here is a rewritten <tt>hashCode</tt> method:
+</p>
+<pre>    public int hashCode() {<br>	if (hash == 0) { <br>	    // no reason to declare these locals: <br>            // int h = 0;<br>	    // int off = offset;<br>            // char val[] = value;<br>	    // int len = count;<br><br>            final int HASH_MULTIPLIER = 31; <br>            for (int i = 0; i &lt; count; i++) {<br>                hash = HASH_MULTIPLIER * hash + value[offset + i];<br>            }<br>        }<br>        return hash;<br>    }<br></pre>
+<p>The original method used local variables heavily because old
+versions of the Java virtual machine lacked a good just-in-time
+compiler, and local variables were accessed more quickly than instance
+fields.&nbsp; </p>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>Ex8-7</title>
+</head>
+<body>
+The invariant we wish to prove is <br>
+<br>
+(*) All values in the elements array belong to a subtype of <tt>E</tt>.<br>
+<br>
+Any class invariant needs to be proven inductively, that is, we need to
+show<br>
+<ol>
+  <li>(*) is true after each constructor</li>
+  <li>If (*) is true before a mutator call, it is again true afterwards</li>
+</ol>
+There is one constructor, constructing an empty array. Thus, (*) is
+trivially true.<br>
+<br>
+There are two mutators, <tt>add</tt> and <tt>remove</tt>. (A careful
+look at <tt>iterator</tt> shows that it is not a mutator--the returned
+iterator cannot mutate the queue contents.)<br>
+<br>
+The <tt>remove</tt> method does not add new elements to the array, so
+(*) is trivially preserved. <br>
+<br>
+The <tt>add</tt> method has a parameter of type <tt>E</tt>, so the
+compiler checks that any element passed to <tt>add</tt> is a subtype
+of <tt>E</tt>. The <tt>add</tt> method adds the parameter value to
+the array, preserving (*).<br>
+<br>
+This proves that (*) is an invariant.<br>
+<br>
+Therefore, the three casts <tt>(E)</tt> <tt>elements[. . .]</tt> are
+safe.<br>
+<br>
+The compiler cannot come to this conclusion since it does not look at
+all the methods together when checking for type safety. It only looks
+at one method at a time. <br>
+</body>
+</html>

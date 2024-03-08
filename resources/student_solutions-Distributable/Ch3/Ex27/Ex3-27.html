@@ -1,0 +1,163 @@
+
+To prove that the condition 
+(tail - head - count) % elements.length == 0 is an invariant of
+the MessageQueue class, we must show that it is true after each
+constructor finishes execution and
+that each mutator preserves it.
+
+<p>In the only constructor in the class, count, head, and tail are all set
+to 0 which means that tail - head - count == 0 which proves that the
+invariant is true for all objects that are constructed.
+
+<p>
+To show that the mutator removeFirst() preserves the invariant, notice that
+removeFirst makes the following changes:
+
+<p>
+headNew == (headOld + 1) % elements.length
+
+<p>
+countNew == countOld - 1;
+
+<p>
+Because another invariant of the class is 
+
+0 &le; head &lt; elements.length
+
+<p>
+we can say that there are two possible cases for headOld, either 
+
+<p>
+headOld == elements.length - 1 
+
+<p>
+or 
+
+<p>
+0 &le; headOld  &lt;  elements.length - 1.
+
+<p>
+Consider the first case, that headOld == elements.length - 1.
+
+Since we assume the invariant is true for headOld and countOld, we know that
+
+<p>
+(tail - headOld - countOld) % elements.length == 0
+
+<p>
+Substituting for headOld and countOld we get
+
+<p>
+(tail - elements.length + 1 - countNew - 1 ) % elements.length == 0
+ 
+<p>
+which reduces to 
+
+<p>
+(tail + 1 - countNew - 1 ) % elements.length == 0
+
+<p>
+But since
+
+headNew == (elements.length - 1 + 1) % elements.length == 0
+
+<p>
+we can insert headNew into the statement above, resulting in 
+
+<p>
+(tail - headNew - countNew + 1 - 1) elements.length == 0
+
+<p>
+and hence
+
+<p>
+(tail - headNew - countNew) elements.length == 0
+
+<p>
+and so in this case, the removeFirst() mutator preserves the invariant.
+
+<p>
+Now considering the second case, that 
+0 &le; headOld &lt;  elements.length - 1.  This case implies that 
+
+<p>
+0 &lt; headOld + 1 &lt; elements.length 
+
+<p>
+and consequently
+
+<p>
+headNew == (headOld + 1) % elements.length == headOld + 1
+
+
+<p>
+Now since we assume the invariant is true for headOld and countOld, we
+know that
+
+<p>
+(tail - headOld - countOld ) % elements.length == 0
+
+<p>
+Substituting for headOld and countOld gives
+
+<p>
+(tail - headNew + 1 - countNew - 1) % elements.length == 0
+
+<p>
+== (tail - headNew - countNew) % elements.length 
+
+<p>
+and so for this case also the invariant is true after execution of removeFirst.
+
+Thus, the invariant is true for method removeFirst.
+
+<p>
+Now we must prove that the invariant holds for method add which makes the
+following changes:
+
+<p>
+tailNew == (tailOld + 1) % elements.length
+
+<p>
+countNew == countOld + 1
+
+<p>
+The statement is true by similar reasoning.
+Since 0 &le; tail &lt; elements.length is also an invariant of this class
+we again have two cases:
+
+<p>
+tail == elements.length - 1, and
+<p>
+0 &le; tail &lt; elements.length - 1.
+
+<p>
+In the first case, tailNew must be 0 and so  we can substitute in the invariant to get
+
+<p>
+(elements.length - 1 - head - countNew + 1) % elements.length == 0
+<p>
+== (tailNew - head - countNew) % elements.length
+<p>
+which is the invariant.
+
+
+<p>
+In the second case, 0 &le; tailOld &lt; elements.length - 1 implies that
+
+<p>
+tailNew = (tailOld + 1) % elements.length = tailOld + 1
+
+<p>
+and substituting in the original invariant gives
+<p>
+(tailOld - 1 - head - countNew + 1) % elements.length == 0
+
+<p>
+== (tailOld - head - countnew) % elements.length
+
+<p>
+Thus the invariant holds in both cases and the method add also preserves
+the invariant.  There are no other invariants in the class and therefore 
+the invariant holds for the class.
+

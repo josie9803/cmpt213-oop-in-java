@@ -1,0 +1,32 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+</head>
+<body>
+In order to remove the collaboration of the Connection and Mailbox
+classes,
+the MailSystem will have to maintain a reference to a "current
+mailbox".
+One responsibility of the MailSystem will be to set up this reference
+when
+the Connection passes an extension number and requests that the Mailbox
+for
+that extension be set up as the current mailbox.
+<p></p>
+<p>
+In the new configuration, any request that the Connection would have
+made to the Mailbox will now be made to the MailSystem, and, in
+response, the
+MailSystem will pass that request to the current Mailbox. Thus, the
+MailSystem will need to have new responsibilities for all of the
+operations
+that the Connection used to ask of the Mailbox. These include, for
+example, checking a passcode and storing a message. Responsibilities of
+the
+Mailbox will not change. If
+the system is extended to multiple mailboxes, then the MailSystem will
+need
+to maintain multiple "current mailboxes" and it will be responsible for
+associating a given connection with a given "current mailbox".&nbsp; </p>
+</body>
+</html>

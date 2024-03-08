@@ -1,0 +1,54 @@
+
+The instance field <code>val$local1</code> is used to store the value 
+of the variable <code>local1</code> which is local to the enclosing scope
+of the inner class.  This is an instance field so that the value of
+<code>local1</code> can be accessed even after <code>local1</code> no
+longer exists.
+
+<p> 
+The instance field <code>val$someParameter</code> is used to store the value 
+of the variable <code>someParameter</code> which is the 
+parameter of the constructor for <code>InnerClassDumpTest</code>.
+This is an instance field so that the value of
+<code>someParameter</code> can be accessed even after the constructor
+is completed and the parameter no longer exists.
+
+<p>
+The constructor for the anonymous inner class contains two parameters.
+The first is a reference to the instance of the enclosing class.  
+It is used to initialize the instance variable <code>this$0</code>.  
+This field is used to access the instance of the InnerClassDumpTest 
+that was used to create this instance of the inner class.
+This reference could be used to access the
+fields of the instance of <code>InnerClassDumpTest</code>
+from inside the anonymous inner class.
+
+<p>The second parameter is the value of <code>someParameter</code>.
+It is used to initialize the value of the 
+field <code>val$someParameter</code>.  
+This field allows the instance of the inner class to access
+the value of the constructor parameter even after the constructor has
+completed execution.
+
+<p>Note that there is no instance variable for <code>local2</code>.
+Since the value of this variable is known at compile time, the compiler
+apparently replaces this variable with its value.
+This compiler optimization technique is known as constant folding.
+
+<p>The output from the program is as follows:
+<pre>
+class InnerClassDumpTest$1
+   implements java.awt.event.ActionListener
+{
+   InnerClassDumpTest$1(InnerClassDumpTest,int,int);
+
+   public void actionPerformed(java.awt.event.ActionEvent);
+
+   private int inner;
+   private final int val$someParameter;
+   private final int val$local1;
+   private final InnerClassDumpTest this$0;
+}
+</pre>
+
+

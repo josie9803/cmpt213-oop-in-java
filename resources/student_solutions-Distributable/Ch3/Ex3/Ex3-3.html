@@ -1,0 +1,75 @@
+
+<p>
+The simplest way 
+to convert your birthday in the current year is to use one of several 
+calculators that are available on the web.  However the conversions
+provided by these do not always agree.
+The authors of Calendrical Calculations have a conversion applet at
+<a href="http://emr.cs.iit.edu/home/reingold/calendar-book/second-edition/">
+http://emr.cs.iit.edu/home/reingold/calendar-book/second-edition/
+</a> which should provide correct results.
+
+</p>
+
+<p>Another way is to do the conversion by hand as follows.
+Day 1 of the FR year is the most recent autumnal equinox.  
+This is around September 23, but the date varies.  
+The date of the equinox for a given
+year can be found using the algorithm found at
+<a href="http://image.gsfc.nasa.gov/poetry/ask/astro/q1467.html">
+   http://image.gsfc.nasa.gov/poetry/ask/astro/q1467.html</a>.
+However, this algorithm does not indicate the location for which it is
+calculating the equinox.
+   You can, of course, simply assume that the equinox is on the 23rd.
+If your birthday is before the equinox in the current year, then you
+will have to go back to the equinox in the previous year.
+Once you have addressed the equinox question, the steps are as follows.
+</p>
+
+<p>First, calculate the FR year:
+<pre>
+if (most recent equinox is in current year)
+   year = current year - 1792 + 1;
+else  // most recent equinox is in previous year 
+   year = current year - 1792;
+</pre>
+
+<p>
+Next count the number of days since the most recent solstice,
+with the solstice itself counting as day one.  Call this number D.
+
+<p>
+If D is more than 360, then subtract 360 from D to find the day in the end
+of year fesitval.  
+</p>
+
+<p> Otherwise, next calculate the month as follows:
+<pre>
+   month = (D - 1) / 30 + 1
+</pre>
+
+<p>Finally, calculate the day in the month as follows:
+<pre>
+   day = (D -  1) % 30 + 1
+</pre>
+
+<p>
+Example 1: For November 3, 2002, whose (Gregorian) day in the year is 307, 
+the FR day in the year is 307-266+1=42, where 266 is the Gregorian day 
+in the year of 9/23/02, the most recent autumnal equinox.  
+
+The FR year is 2002-1792+1=211, the FR month is 42/30+1=2, and the FR day is
+41%30+1=12.  The day is then the 13th day of the 2th month of year 211.
+</p>
+
+<p>
+
+Example 2: For February 3, 2003, whose (Gregorian) day in the year is 34,
+x=34+100=134, 
+where 100=8+31+30+31 is the number of days from 9/23/2002 to 12/31/2002.
+The FR year then is 2003-1792=211, the FR month is 133/30+1=5, and the FR day is
+133%30+1=14.  The day then is the 14th day of the 5th month of year 211.
+
+Both of these calculations assume that modern leap year rules are used.
+
+

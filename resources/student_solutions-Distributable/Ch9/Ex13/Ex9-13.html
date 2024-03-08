@@ -1,0 +1,55 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+</head>
+<body>
+<ul>
+  <li>Example 1
+    <ol>
+      <li>Thread 1 executes <code>remove</code> and completes its time
+slice after the value of <code> r</code> is assigned, but before
+before <code>head++</code> is executed. The second thread gains
+control. </li>
+      <li>Thread 2 executes <code>remove</code> which assigns to <code>
+r</code> to the same value that was assigned in Thread 1. Thread 2
+completes execution of <code>remove</code> and gives up control. </li>
+      <li>Thread 1 resumes execution and completes <code>remove</code>
+which returns the same value that was returned from <code>remove</code>
+in thread 2. Since <code> head</code> was incremented twice, two
+values were removed from the queue, however, only one of those values
+was returned by <code>remove</code>. </li>
+    </ol>
+    <p> </p>
+  </li>
+  <li>Example 2
+    <ol>
+      <li>Thread 1 executes <code>remove</code> and completes its time
+slice before <code>size--</code> is executed. The second thread gains
+control. </li>
+      <li>Thread 2 executes <code>isEmpty</code> which returns false.
+Thread 2 then gives up control. </li>
+      <li>Thread 1 resumes execution and executes <code>size--</code>
+which sets <code> size</code> to 0 (ie makes the queue empty). Thread
+1 gives up control. </li>
+      <li>Thread 2 regains control and treats the queue as not being
+empty, even though it is. </li>
+    </ol>
+    <p> </p>
+  </li>
+  <li>Example 3
+    <ol>
+      <li>Thread 1 executes <code>add</code> and completes its time
+slice before <code>size++</code> is executed. The second thread gains
+control. </li>
+      <li>Thread 2 executes <code>isFull</code> which returns false.
+Thread 2 then gives up control. </li>
+      <li>Thread 1 resumes execution and executes <code>size++</code>
+which sets <code> size</code> to <code> elements.length</code> (ie
+makes the queue full). Thread 1 gives up control. </li>
+      <li>Thread 2 regains control and treats the queue as not being
+full, even though it is. </li>
+    </ol>
+  </li>
+</ul>
+</body>
+</html>

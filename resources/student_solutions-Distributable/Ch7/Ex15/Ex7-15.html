@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+</head>
+<body>
+<p> In package <code>java.lang</code>, the only public classes that
+implement
+<code>equals</code> directly are <code>Object</code>, the wrapper
+classes and class <code>String</code>
+and <code>StackTraceElement</code>. All appear to meet the axioms.
+Some of them use <code>instanceof</code>, but they are final classes
+so there are no problems with subclasses.&nbsp;<br>
+</p>
+<p><br>
+In contrast, package <code>java.awt</code> has over 80 public classes
+listed in the API
+documentation.
+Of these, four final classes (<tt>AlphaComposite</tt>, <tt>DisplayMode</tt>,
+<tt>JobAttributes</tt>, <tt>PageAttributes</tt>) implement <code>equals</code>
+correctly. The following non-final classes implement <code>equals</code>
+using <code>instanceof</code> rather than
+<code>getClass</code>: <tt>BasicStroke</tt>, <tt>Color</tt>, <tt>Dimension</tt>,
+<tt>Insets</tt>, <tt>MenuShortcut</tt>, <tt>Point</tt>, <tt>Rectangle</tt>,
+<tt>RenderingHints</tt>. This is not a problem for the Java engineers
+since these classes are not subclassed in a way that would change the
+semantics of <tt>equals</tt>. But it is a problem for you if you
+wanted to, for example, have a subclass <tt>LabeledPoint</tt> or <tt>ColoredPoint</tt>
+of <tt>Point</tt>. You would not be able to redefine the <tt>equals</tt>
+method to take labels or colors into account.<br>
+</p>
+<p><tt>Font.equals</tt> is bizarre: it casts and catches a <tt>ClassCastException</tt>
+if the cast fails. Don't code like that.<br>
+</p>
+<br>
+</body>
+</html>

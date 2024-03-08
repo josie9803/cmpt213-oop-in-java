@@ -1,0 +1,66 @@
+
+Differences between the C++ Standard Template Library (STL) and the Java
+Collections Framework (JCF) include the following:
+<ul>
+   <li>
+STL uses template classes and functions which have type parameters.  
+In the JCF, the collection classes provide collections of Objects.
+In Java, there is no way to create a general collection in which all of the
+elements have the same type.  Instead, the collections are all collections
+of objects.  These collections can hold objects of any type, and there is
+no way for the compiler to verify that all of the objects that are put in
+the collection are of the same type.  With template classes it is possible
+to design a general collection in which all of the elements are of the
+same type and for which the compiler can enforce that only objects of the
+correct type are added to the collection.
+In contrast, 
+the Java programmer must provide class casts when removing the
+objects from the collections.  In this case, type errors are not caught 
+until runtime, when they show up as class cast exceptions.  
+
+
+   <li>
+STL include performance as part of the interface requirements.  This is not
+normally the case for java collections.
+
+   <li>
+   In Java, the algorithms are organized by container, while in STL the
+algorithms are independent of the container on which they operate.
+
+   <li>
+STL uses value semantics so that assignment copies a collection.  
+Java uses reference semantics and assignment simply assigns a reference.
+Similarly,
+Java collections always contain pointers to objects, while STL collections can
+contain pointers to objects or the objects themselves.
+
+   <li>
+   STL iterators differ from those in Java.  STL has a hierarchy of 
+iterators which different capabilities, including moving either only
+forward or moving forward and backward, and providing random access to
+container elements.  Container classes are characterized by the iterators
+that they provide, and generic algorithms are characterized by the
+iterators that they use.  Iterators in STL have values that can be
+compared.  Java only provides Iterator and ListIterator.  Random
+access iterators are not provided,  and interators do not have values that
+can be compared.
+
+   <li>
+Java relies heavily on interfaces which do not exist in C++
+
+   <li>
+In STL, containers can contain either objects or objects of primitive
+types, and many algorithms operate on either containers or arrays.  In
+Java, containers contain only objects, and algorithms must be defined
+separately for containers and for arrays.
+
+   <li>
+The memory allocation model is part of the STL framework and the STL
+programmer needs to be aware of deallocating memory.  Neither of these are
+concerns in the JCF.
+
+   <li>
+   C++ allows passing functions as parameters which is not allowed in
+   Java.
+</ul>
+

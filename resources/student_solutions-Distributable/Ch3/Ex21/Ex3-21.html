@@ -1,0 +1,21 @@
+
+<p>
+The class java.util.File is not consistent.  Suffixes are used
+inconsistently as in, for example, getAbsoluteFile() and getAbsolutePath()
+versus getParentFile() and getParent().  There is a method to set the
+read only attribute of a file, but no method to make the file readable and
+writeable.
+
+<p>
+The complexity of the explanations of methods listRoots() and 
+createTempFile() demonstrates the lack of clarity of these methods.
+
+<p>
+The class lacks cohesion because it seems to be designed to support
+several different goals.
+The stated purpose is to be 
+"an abstract representation of file and directory path names".
+Another goal is to do various file status queries, and yet another is to create
+temporary files and do directory operations.
+On top of that are several methods for manipulating URL's and URI's.
+

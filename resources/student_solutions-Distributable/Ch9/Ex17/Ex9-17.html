@@ -1,0 +1,9 @@
+<html>
+<body>
+<p>
+With the console interface, all commands come from System.in, and each command is executed as it is entered. It is therefore not possible to, say, simultaneously add and remove a message from the same mailbox.
+</p>
+<p>
+With the GUI interface, it would be possible to use two frames and very quickly click two buttons to execute simultaneous commands. (perhaps one with the keyboard and one with the mouse). But all user interface events are placed on an event queue and processed in a single GUI thread. Thus, the first command is completed before the second one starts.
+</p>
+</body>
