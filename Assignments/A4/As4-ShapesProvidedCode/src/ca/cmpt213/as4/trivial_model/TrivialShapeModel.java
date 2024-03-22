@@ -2,7 +2,7 @@ package ca.cmpt213.as4.trivial_model;
 
 import ca.cmpt213.as4.ShapeModel;
 import ca.cmpt213.as4.UI.Canvas;
-import ca.cmpt213.as4.UI.DrawableShape;
+import ca.cmpt213.as4.DrawShape.DrawableShape;
 
 import java.awt.Color;
 import java.io.File;

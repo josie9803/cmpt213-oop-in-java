@@ -1,4 +1,6 @@
-package ca.cmpt213.as4.UI;
+package ca.cmpt213.as4.DrawShape;
+
+import ca.cmpt213.as4.UI.Canvas;
 
 /**
  * Define a graphical shape interface

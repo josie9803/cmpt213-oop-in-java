@@ -1,5 +1,7 @@
 package ca.cmpt213.as4.UI;
 
+import ca.cmpt213.as4.DrawShape.DrawableShape;
+
 import java.awt.*;
 import java.io.File;
 import java.io.FileWriter;

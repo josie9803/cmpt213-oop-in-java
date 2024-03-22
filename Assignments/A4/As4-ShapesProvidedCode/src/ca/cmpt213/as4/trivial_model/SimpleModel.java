@@ -1,14 +1,12 @@
 package ca.cmpt213.as4.trivial_model;
 
+import ca.cmpt213.as4.DrawShape.ConcreteDrawableShape;
 import ca.cmpt213.as4.ShapeModel;
-import ca.cmpt213.as4.UI.Canvas;
-import ca.cmpt213.as4.UI.ColorMapper;
-import ca.cmpt213.as4.UI.DrawableShape;
+import ca.cmpt213.as4.DrawShape.DrawableShape;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
 
-import java.awt.*;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -31,28 +29,11 @@ public class SimpleModel implements ShapeModel {
             shapes.clear();
 
             for (ShapeDescription m : data){
-                DrawableShape drawableShape = createDrawableShape(m);
-                if (drawableShape != null) {
-                    shapes.add(drawableShape);
-                }
-                DrawableShape text = new FillTextModel(m);
-                shapes.add(text);
+                DrawableShape drawableShape = new ConcreteDrawableShape(m);
+                shapes.add(drawableShape);
             }
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
-        }
-    }
-
-    private DrawableShape createDrawableShape(ShapeDescription description) {
-        switch (description.getLine()) {
-            case "char":
-                return new CharLineBorder(description);
-//            case "ascii line":
-//                return new AsciiLineBorder(description);
-//            case "sequence":
-//                return new SequenceBorder(description);
-            default:
-                return null;
         }
     }
 

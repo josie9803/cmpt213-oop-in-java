@@ -1,6 +1,6 @@
 package ca.cmpt213.as4;
 
-import ca.cmpt213.as4.UI.DrawableShape;
+import ca.cmpt213.as4.DrawShape.DrawableShape;
 
 import java.io.File;
 import java.util.Iterator;

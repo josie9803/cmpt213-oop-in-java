@@ -1,20 +1,14 @@
-package ca.cmpt213.as4.trivial_model;
+package ca.cmpt213.as4.DrawBorder;
 
 import ca.cmpt213.as4.UI.Canvas;
 import ca.cmpt213.as4.UI.ColorMapper;
-import ca.cmpt213.as4.UI.DrawableShape;
+import ca.cmpt213.as4.trivial_model.ShapeDescription;
 
 import java.awt.*;
 
-public class CharLineBorder implements DrawableShape {
-    protected ShapeDescription description;
-
-    public CharLineBorder(ShapeDescription description) {
-        this.description = description;
-    }
-
+public class CharLineBorder implements Border {
     @Override
-    public void draw(Canvas canvas) {
+    public void drawBorder(Canvas canvas, ShapeDescription description) {
         char lineChar = description.getLineChar().charAt(0);
         Color bgColor = ColorMapper.getColor(description.getBackgroundColor());
 
