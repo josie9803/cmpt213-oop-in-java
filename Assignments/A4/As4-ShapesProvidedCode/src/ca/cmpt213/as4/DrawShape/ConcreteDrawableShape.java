@@ -34,6 +34,10 @@ public class ConcreteDrawableShape implements DrawableShape {
         backgroundStyle.drawBackground(canvas, description);
     }
 
+    public ShapeDescription getDescription() {
+        return description;
+    }
+
     public Border decideBorder(ShapeDescription description){
         switch (description.getLine()) {
             case "char":
