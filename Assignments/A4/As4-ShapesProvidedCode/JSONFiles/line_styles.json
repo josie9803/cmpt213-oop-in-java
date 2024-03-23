@@ -131,7 +131,7 @@
       "height": 1,
       "width": 2,
       "background": "solid",
-      "backgroundColor": "cyan",
+      "backgroundColor": "red",
       "line": "sequence",
       "fill": "solid",
       "fillText": "_"
