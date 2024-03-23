@@ -1,0 +1,821 @@
+**************************************
+Sample Fortress Defense Output
+- WINNING THE GAME #1 (7 opponents, and cheating)
+**************************************
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A  .  .  .  .  .  .  .  .  .  .
+    B  .  .  .  .  .  D  .  .  .  .
+    C  E  E  .  A  A  D  D  D  .  .
+    D  E  E  E  A  .  D  .  .  G  G
+    E  .  .  .  A  A  .  .  G  G  G
+    F  C  .  .  .  .  .  .  .  .  .
+    G  C  C  .  .  .  .  B  B  .  .
+    H  C  C  .  .  .  B  B  B  .  .
+    I  .  .  F  F  F  .  .  .  .  .
+    J  .  F  F  .  .  .  .  .  .  .
+Opponents points: 0 / 2500.
+(Lower case fort letters are where you shot.)
+
+
+Starting game with 7 forts.
+------------------------
+Welcome to Fort Defense!
+by Brian Fraser
+------------------------
+
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    C  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    H  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    J  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 0 / 2500.
+Enter your move: b6
+HIT!
+Opponent #1 of 7 shot you for 20 points!
+Opponent #2 of 7 shot you for 20 points!
+Opponent #3 of 7 shot you for 20 points!
+Opponent #4 of 7 shot you for 20 points!
+Opponent #5 of 7 shot you for 20 points!
+Opponent #6 of 7 shot you for 20 points!
+Opponent #7 of 7 shot you for 20 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  X  ~  ~  ~  ~
+    C  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    H  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    J  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 140 / 2500.
+Enter your move: c6
+HIT!
+Opponent #1 of 7 shot you for 20 points!
+Opponent #2 of 7 shot you for 20 points!
+Opponent #3 of 7 shot you for 20 points!
+Opponent #4 of 7 shot you for 5 points!
+Opponent #5 of 7 shot you for 20 points!
+Opponent #6 of 7 shot you for 20 points!
+Opponent #7 of 7 shot you for 20 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  X  ~  ~  ~  ~
+    C  ~  ~  ~  ~  ~  X  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    H  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    J  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 265 / 2500.
+Enter your move: c1
+HIT!
+Opponent #1 of 7 shot you for 20 points!
+Opponent #2 of 7 shot you for 20 points!
+Opponent #3 of 7 shot you for 20 points!
+Opponent #4 of 7 shot you for 5 points!
+Opponent #5 of 7 shot you for 20 points!
+Opponent #6 of 7 shot you for 20 points!
+Opponent #7 of 7 shot you for 20 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  X  ~  ~  ~  ~
+    C  X  ~  ~  ~  ~  X  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    H  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    J  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 390 / 2500.
+Enter your move: c2
+HIT!
+Opponent #1 of 7 shot you for 20 points!
+Opponent #2 of 7 shot you for 20 points!
+Opponent #3 of 7 shot you for 20 points!
+Opponent #4 of 7 shot you for 5 points!
+Opponent #5 of 7 shot you for 5 points!
+Opponent #6 of 7 shot you for 20 points!
+Opponent #7 of 7 shot you for 20 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  X  ~  ~  ~  ~
+    C  X  X  ~  ~  ~  X  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    H  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    J  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 500 / 2500.
+Enter your move: c4
+HIT!
+Opponent #1 of 7 shot you for 20 points!
+Opponent #2 of 7 shot you for 20 points!
+Opponent #3 of 7 shot you for 20 points!
+Opponent #4 of 7 shot you for 5 points!
+Opponent #5 of 7 shot you for 5 points!
+Opponent #6 of 7 shot you for 20 points!
+Opponent #7 of 7 shot you for 20 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  X  ~  ~  ~  ~
+    C  X  X  ~  X  ~  X  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    H  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    J  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 610 / 2500.
+Enter your move: c5
+HIT!
+Opponent #1 of 7 shot you for 5 points!
+Opponent #2 of 7 shot you for 20 points!
+Opponent #3 of 7 shot you for 20 points!
+Opponent #4 of 7 shot you for 5 points!
+Opponent #5 of 7 shot you for 5 points!
+Opponent #6 of 7 shot you for 20 points!
+Opponent #7 of 7 shot you for 20 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  X  ~  ~  ~  ~
+    C  X  X  ~  X  X  X  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    H  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    J  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 705 / 2500.
+Enter your move: d9
+HIT!
+Opponent #1 of 7 shot you for 5 points!
+Opponent #2 of 7 shot you for 20 points!
+Opponent #3 of 7 shot you for 20 points!
+Opponent #4 of 7 shot you for 5 points!
+Opponent #5 of 7 shot you for 5 points!
+Opponent #6 of 7 shot you for 20 points!
+Opponent #7 of 7 shot you for 20 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  X  ~  ~  ~  ~
+    C  X  X  ~  X  X  X  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  X  ~
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    H  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    J  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 800 / 2500.
+Enter your move: d10
+HIT!
+Opponent #1 of 7 shot you for 5 points!
+Opponent #2 of 7 shot you for 20 points!
+Opponent #3 of 7 shot you for 20 points!
+Opponent #4 of 7 shot you for 5 points!
+Opponent #5 of 7 shot you for 5 points!
+Opponent #6 of 7 shot you for 20 points!
+Opponent #7 of 7 shot you for 5 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  X  ~  ~  ~  ~
+    C  X  X  ~  X  X  X  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  X  X
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    H  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    J  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 880 / 2500.
+Enter your move: g1
+HIT!
+Opponent #1 of 7 shot you for 5 points!
+Opponent #2 of 7 shot you for 20 points!
+Opponent #3 of 7 shot you for 20 points!
+Opponent #4 of 7 shot you for 5 points!
+Opponent #5 of 7 shot you for 5 points!
+Opponent #6 of 7 shot you for 20 points!
+Opponent #7 of 7 shot you for 5 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  X  ~  ~  ~  ~
+    C  X  X  ~  X  X  X  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  X  X
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  X  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    H  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    J  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 960 / 2500.
+Enter your move: g2
+HIT!
+Opponent #1 of 7 shot you for 5 points!
+Opponent #2 of 7 shot you for 20 points!
+Opponent #3 of 7 shot you for 5 points!
+Opponent #4 of 7 shot you for 5 points!
+Opponent #5 of 7 shot you for 5 points!
+Opponent #6 of 7 shot you for 20 points!
+Opponent #7 of 7 shot you for 5 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  X  ~  ~  ~  ~
+    C  X  X  ~  X  X  X  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  X  X
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  X  X  ~  ~  ~  ~  ~  ~  ~  ~
+    H  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    J  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 1025 / 2500.
+Enter your move: g7
+HIT!
+Opponent #1 of 7 shot you for 5 points!
+Opponent #2 of 7 shot you for 20 points!
+Opponent #3 of 7 shot you for 5 points!
+Opponent #4 of 7 shot you for 5 points!
+Opponent #5 of 7 shot you for 5 points!
+Opponent #6 of 7 shot you for 20 points!
+Opponent #7 of 7 shot you for 5 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  X  ~  ~  ~  ~
+    C  X  X  ~  X  X  X  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  X  X
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  X  X  ~  ~  ~  ~  X  ~  ~  ~
+    H  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    J  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 1090 / 2500.
+Enter your move: g8
+HIT!
+Opponent #1 of 7 shot you for 5 points!
+Opponent #2 of 7 shot you for 5 points!
+Opponent #3 of 7 shot you for 5 points!
+Opponent #4 of 7 shot you for 5 points!
+Opponent #5 of 7 shot you for 5 points!
+Opponent #6 of 7 shot you for 20 points!
+Opponent #7 of 7 shot you for 5 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  X  ~  ~  ~  ~
+    C  X  X  ~  X  X  X  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  X  X
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  X  X  ~  ~  ~  ~  X  X  ~  ~
+    H  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    J  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 1140 / 2500.
+Enter your move: i4
+HIT!
+Opponent #1 of 7 shot you for 5 points!
+Opponent #2 of 7 shot you for 5 points!
+Opponent #3 of 7 shot you for 5 points!
+Opponent #4 of 7 shot you for 5 points!
+Opponent #5 of 7 shot you for 5 points!
+Opponent #6 of 7 shot you for 20 points!
+Opponent #7 of 7 shot you for 5 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  X  ~  ~  ~  ~
+    C  X  X  ~  X  X  X  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  X  X
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  X  X  ~  ~  ~  ~  X  X  ~  ~
+    H  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  ~  X  ~  ~  ~  ~  ~  ~
+    J  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 1190 / 2500.
+Enter your move: i5
+HIT!
+Opponent #1 of 7 shot you for 5 points!
+Opponent #2 of 7 shot you for 5 points!
+Opponent #3 of 7 shot you for 5 points!
+Opponent #4 of 7 shot you for 5 points!
+Opponent #5 of 7 shot you for 5 points!
+Opponent #6 of 7 shot you for 5 points!
+Opponent #7 of 7 shot you for 5 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  X  ~  ~  ~  ~
+    C  X  X  ~  X  X  X  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  X  X
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  X  X  ~  ~  ~  ~  X  X  ~  ~
+    H  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  ~  X  X  ~  ~  ~  ~  ~
+    J  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 1225 / 2500.
+Enter your move: i
+Invalid target. Please enter a coordinate such as D10.
+Enter your move: i3
+HIT!
+Opponent #1 of 7 shot you for 5 points!
+Opponent #2 of 7 shot you for 5 points!
+Opponent #3 of 7 shot you for 5 points!
+Opponent #4 of 7 shot you for 5 points!
+Opponent #5 of 7 shot you for 5 points!
+Opponent #6 of 7 shot you for 2 points!
+Opponent #7 of 7 shot you for 5 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  X  ~  ~  ~  ~
+    C  X  X  ~  X  X  X  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  X  X
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  X  X  ~  ~  ~  ~  X  X  ~  ~
+    H  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  X  X  X  ~  ~  ~  ~  ~
+    J  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 1257 / 2500.
+Enter your move: j3
+HIT!
+Opponent #1 of 7 shot you for 5 points!
+Opponent #2 of 7 shot you for 5 points!
+Opponent #3 of 7 shot you for 5 points!
+Opponent #4 of 7 shot you for 5 points!
+Opponent #5 of 7 shot you for 5 points!
+Opponent #6 of 7 shot you for 1 points!
+Opponent #7 of 7 shot you for 5 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  X  ~  ~  ~  ~
+    C  X  X  ~  X  X  X  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  X  X
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  X  X  ~  ~  ~  ~  X  X  ~  ~
+    H  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  X  X  X  ~  ~  ~  ~  ~
+    J  ~  ~  X  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 1288 / 2500.
+Enter your move: j4
+Miss.
+Opponent #1 of 7 shot you for 5 points!
+Opponent #2 of 7 shot you for 5 points!
+Opponent #3 of 7 shot you for 5 points!
+Opponent #4 of 7 shot you for 5 points!
+Opponent #5 of 7 shot you for 5 points!
+Opponent #6 of 7 shot you for 1 points!
+Opponent #7 of 7 shot you for 5 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  X  ~  ~  ~  ~
+    C  X  X  ~  X  X  X  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  X  X
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  X  X  ~  ~  ~  ~  X  X  ~  ~
+    H  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  X  X  X  ~  ~  ~  ~  ~
+    J  ~  ~  X     ~  ~  ~  ~  ~  ~
+Opponents points: 1319 / 2500.
+Enter your move: j2
+HIT!
+Opponent #1 of 6 shot you for 5 points!
+Opponent #2 of 6 shot you for 5 points!
+Opponent #3 of 6 shot you for 5 points!
+Opponent #4 of 6 shot you for 5 points!
+Opponent #5 of 6 shot you for 5 points!
+Opponent #6 of 6 shot you for 5 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  X  ~  ~  ~  ~
+    C  X  X  ~  X  X  X  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  X  X
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  X  X  ~  ~  ~  ~  X  X  ~  ~
+    H  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  X  X  X  ~  ~  ~  ~  ~
+    J  ~  X  X     ~  ~  ~  ~  ~  ~
+Opponents points: 1349 / 2500.
+Enter your move: h1
+HIT!
+Opponent #1 of 6 shot you for 5 points!
+Opponent #2 of 6 shot you for 5 points!
+Opponent #3 of 6 shot you for 2 points!
+Opponent #4 of 6 shot you for 5 points!
+Opponent #5 of 6 shot you for 5 points!
+Opponent #6 of 6 shot you for 5 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  X  ~  ~  ~  ~
+    C  X  X  ~  X  X  X  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  X  X
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  X  X  ~  ~  ~  ~  X  X  ~  ~
+    H  X  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  X  X  X  ~  ~  ~  ~  ~
+    J  ~  X  X     ~  ~  ~  ~  ~  ~
+Opponents points: 1376 / 2500.
+Enter your move: h2
+HIT!
+Opponent #1 of 6 shot you for 5 points!
+Opponent #2 of 6 shot you for 5 points!
+Opponent #3 of 6 shot you for 1 points!
+Opponent #4 of 6 shot you for 5 points!
+Opponent #5 of 6 shot you for 5 points!
+Opponent #6 of 6 shot you for 5 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  X  ~  ~  ~  ~
+    C  X  X  ~  X  X  X  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  X  X
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  X  X  ~  ~  ~  ~  X  X  ~  ~
+    H  X  X  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  X  X  X  ~  ~  ~  ~  ~
+    J  ~  X  X     ~  ~  ~  ~  ~  ~
+Opponents points: 1402 / 2500.
+Enter your move: f1
+HIT!
+Opponent #1 of 5 shot you for 5 points!
+Opponent #2 of 5 shot you for 5 points!
+Opponent #3 of 5 shot you for 5 points!
+Opponent #4 of 5 shot you for 5 points!
+Opponent #5 of 5 shot you for 5 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  X  ~  ~  ~  ~
+    C  X  X  ~  X  X  X  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  X  X
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  X  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  X  X  ~  ~  ~  ~  X  X  ~  ~
+    H  X  X  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  X  X  X  ~  ~  ~  ~  ~
+    J  ~  X  X     ~  ~  ~  ~  ~  ~
+Opponents points: 1427 / 2500.
+Enter your move: h6
+HIT!
+Opponent #1 of 5 shot you for 5 points!
+Opponent #2 of 5 shot you for 2 points!
+Opponent #3 of 5 shot you for 5 points!
+Opponent #4 of 5 shot you for 5 points!
+Opponent #5 of 5 shot you for 5 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  X  ~  ~  ~  ~
+    C  X  X  ~  X  X  X  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  X  X
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  X  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  X  X  ~  ~  ~  ~  X  X  ~  ~
+    H  X  X  ~  ~  ~  X  ~  ~  ~  ~
+    I  ~  ~  X  X  X  ~  ~  ~  ~  ~
+    J  ~  X  X     ~  ~  ~  ~  ~  ~
+Opponents points: 1449 / 2500.
+Enter your move: h7
+HIT!
+Opponent #1 of 5 shot you for 5 points!
+Opponent #2 of 5 shot you for 1 points!
+Opponent #3 of 5 shot you for 5 points!
+Opponent #4 of 5 shot you for 5 points!
+Opponent #5 of 5 shot you for 5 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  X  ~  ~  ~  ~
+    C  X  X  ~  X  X  X  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  X  X
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  X  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  X  X  ~  ~  ~  ~  X  X  ~  ~
+    H  X  X  ~  ~  ~  X  X  ~  ~  ~
+    I  ~  ~  X  X  X  ~  ~  ~  ~  ~
+    J  ~  X  X     ~  ~  ~  ~  ~  ~
+Opponents points: 1470 / 2500.
+Enter your move: h8
+HIT!
+Opponent #1 of 4 shot you for 5 points!
+Opponent #2 of 4 shot you for 5 points!
+Opponent #3 of 4 shot you for 5 points!
+Opponent #4 of 4 shot you for 5 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  X  ~  ~  ~  ~
+    C  X  X  ~  X  X  X  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  X  X
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  X  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  X  X  ~  ~  ~  ~  X  X  ~  ~
+    H  X  X  ~  ~  ~  X  X  X  ~  ~
+    I  ~  ~  X  X  X  ~  ~  ~  ~  ~
+    J  ~  X  X     ~  ~  ~  ~  ~  ~
+Opponents points: 1490 / 2500.
+Enter your move: e8
+HIT!
+Opponent #1 of 4 shot you for 5 points!
+Opponent #2 of 4 shot you for 5 points!
+Opponent #3 of 4 shot you for 5 points!
+Opponent #4 of 4 shot you for 2 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  X  ~  ~  ~  ~
+    C  X  X  ~  X  X  X  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  X  X
+    E  ~  ~  ~  ~  ~  ~  ~  X  ~  ~
+    F  X  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  X  X  ~  ~  ~  ~  X  X  ~  ~
+    H  X  X  ~  ~  ~  X  X  X  ~  ~
+    I  ~  ~  X  X  X  ~  ~  ~  ~  ~
+    J  ~  X  X     ~  ~  ~  ~  ~  ~
+Opponents points: 1507 / 2500.
+Enter your move: e9
+HIT!
+Opponent #1 of 4 shot you for 5 points!
+Opponent #2 of 4 shot you for 5 points!
+Opponent #3 of 4 shot you for 5 points!
+Opponent #4 of 4 shot you for 1 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  X  ~  ~  ~  ~
+    C  X  X  ~  X  X  X  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  X  X
+    E  ~  ~  ~  ~  ~  ~  ~  X  X  ~
+    F  X  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  X  X  ~  ~  ~  ~  X  X  ~  ~
+    H  X  X  ~  ~  ~  X  X  X  ~  ~
+    I  ~  ~  X  X  X  ~  ~  ~  ~  ~
+    J  ~  X  X     ~  ~  ~  ~  ~  ~
+Opponents points: 1523 / 2500.
+Enter your move: e10
+HIT!
+Opponent #1 of 3 shot you for 5 points!
+Opponent #2 of 3 shot you for 5 points!
+Opponent #3 of 3 shot you for 5 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  X  ~  ~  ~  ~
+    C  X  X  ~  X  X  X  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  X  X
+    E  ~  ~  ~  ~  ~  ~  ~  X  X  X
+    F  X  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  X  X  ~  ~  ~  ~  X  X  ~  ~
+    H  X  X  ~  ~  ~  X  X  X  ~  ~
+    I  ~  ~  X  X  X  ~  ~  ~  ~  ~
+    J  ~  X  X     ~  ~  ~  ~  ~  ~
+Opponents points: 1538 / 2500.
+Enter your move: c7
+HIT!
+Opponent #1 of 3 shot you for 5 points!
+Opponent #2 of 3 shot you for 2 points!
+Opponent #3 of 3 shot you for 5 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  X  ~  ~  ~  ~
+    C  X  X  ~  X  X  X  X  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  X  X
+    E  ~  ~  ~  ~  ~  ~  ~  X  X  X
+    F  X  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  X  X  ~  ~  ~  ~  X  X  ~  ~
+    H  X  X  ~  ~  ~  X  X  X  ~  ~
+    I  ~  ~  X  X  X  ~  ~  ~  ~  ~
+    J  ~  X  X     ~  ~  ~  ~  ~  ~
+Opponents points: 1550 / 2500.
+Enter your move: c8
+HIT!
+Opponent #1 of 3 shot you for 5 points!
+Opponent #2 of 3 shot you for 1 points!
+Opponent #3 of 3 shot you for 5 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  X  ~  ~  ~  ~
+    C  X  X  ~  X  X  X  X  X  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  X  X
+    E  ~  ~  ~  ~  ~  ~  ~  X  X  X
+    F  X  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  X  X  ~  ~  ~  ~  X  X  ~  ~
+    H  X  X  ~  ~  ~  X  X  X  ~  ~
+    I  ~  ~  X  X  X  ~  ~  ~  ~  ~
+    J  ~  X  X     ~  ~  ~  ~  ~  ~
+Opponents points: 1561 / 2500.
+Enter your move: d6
+HIT!
+Opponent #1 of 2 shot you for 5 points!
+Opponent #2 of 2 shot you for 5 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  X  ~  ~  ~  ~
+    C  X  X  ~  X  X  X  X  X  ~  ~
+    D  ~  ~  ~  ~  ~  X  ~  ~  X  X
+    E  ~  ~  ~  ~  ~  ~  ~  X  X  X
+    F  X  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  X  X  ~  ~  ~  ~  X  X  ~  ~
+    H  X  X  ~  ~  ~  X  X  X  ~  ~
+    I  ~  ~  X  X  X  ~  ~  ~  ~  ~
+    J  ~  X  X     ~  ~  ~  ~  ~  ~
+Opponents points: 1571 / 2500.
+Enter your move: d4
+HIT!
+Opponent #1 of 2 shot you for 2 points!
+Opponent #2 of 2 shot you for 5 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  X  ~  ~  ~  ~
+    C  X  X  ~  X  X  X  X  X  ~  ~
+    D  ~  ~  ~  X  ~  X  ~  ~  X  X
+    E  ~  ~  ~  ~  ~  ~  ~  X  X  X
+    F  X  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  X  X  ~  ~  ~  ~  X  X  ~  ~
+    H  X  X  ~  ~  ~  X  X  X  ~  ~
+    I  ~  ~  X  X  X  ~  ~  ~  ~  ~
+    J  ~  X  X     ~  ~  ~  ~  ~  ~
+Opponents points: 1578 / 2500.
+Enter your move: .4
+Invalid target. Please enter a coordinate such as D10.
+Enter your move: e4
+HIT!
+Opponent #1 of 2 shot you for 1 points!
+Opponent #2 of 2 shot you for 5 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  X  ~  ~  ~  ~
+    C  X  X  ~  X  X  X  X  X  ~  ~
+    D  ~  ~  ~  X  ~  X  ~  ~  X  X
+    E  ~  ~  ~  X  ~  ~  ~  X  X  X
+    F  X  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  X  X  ~  ~  ~  ~  X  X  ~  ~
+    H  X  X  ~  ~  ~  X  X  X  ~  ~
+    I  ~  ~  X  X  X  ~  ~  ~  ~  ~
+    J  ~  X  X     ~  ~  ~  ~  ~  ~
+Opponents points: 1584 / 2500.
+Enter your move: e5
+HIT!
+Opponent #1 of 1 shot you for 5 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  X  ~  ~  ~  ~
+    C  X  X  ~  X  X  X  X  X  ~  ~
+    D  ~  ~  ~  X  ~  X  ~  ~  X  X
+    E  ~  ~  ~  X  X  ~  ~  X  X  X
+    F  X  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  X  X  ~  ~  ~  ~  X  X  ~  ~
+    H  X  X  ~  ~  ~  X  X  X  ~  ~
+    I  ~  ~  X  X  X  ~  ~  ~  ~  ~
+    J  ~  X  X     ~  ~  ~  ~  ~  ~
+Opponents points: 1589 / 2500.
+Enter your move: d1
+HIT!
+Opponent #1 of 1 shot you for 2 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  X  ~  ~  ~  ~
+    C  X  X  ~  X  X  X  X  X  ~  ~
+    D  X  ~  ~  X  ~  X  ~  ~  X  X
+    E  ~  ~  ~  X  X  ~  ~  X  X  X
+    F  X  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  X  X  ~  ~  ~  ~  X  X  ~  ~
+    H  X  X  ~  ~  ~  X  X  X  ~  ~
+    I  ~  ~  X  X  X  ~  ~  ~  ~  ~
+    J  ~  X  X     ~  ~  ~  ~  ~  ~
+Opponents points: 1591 / 2500.
+Enter your move: d2
+HIT!
+Opponent #1 of 1 shot you for 1 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  X  ~  ~  ~  ~
+    C  X  X  ~  X  X  X  X  X  ~  ~
+    D  X  X  ~  X  ~  X  ~  ~  X  X
+    E  ~  ~  ~  X  X  ~  ~  X  X  X
+    F  X  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  X  X  ~  ~  ~  ~  X  X  ~  ~
+    H  X  X  ~  ~  ~  X  X  X  ~  ~
+    I  ~  ~  X  X  X  ~  ~  ~  ~  ~
+    J  ~  X  X     ~  ~  ~  ~  ~  ~
+Opponents points: 1592 / 2500.
+Enter your move: d3
+HIT!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  X  ~  ~  ~  ~
+    C  X  X  ~  X  X  X  X  X  ~  ~
+    D  X  X  X  X  ~  X  ~  ~  X  X
+    E  ~  ~  ~  X  X  ~  ~  X  X  X
+    F  X  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  X  X  ~  ~  ~  ~  X  X  ~  ~
+    H  X  X  ~  ~  ~  X  X  X  ~  ~
+    I  ~  ~  X  X  X  ~  ~  ~  ~  ~
+    J  ~  X  X     ~  ~  ~  ~  ~  ~
+Opponents points: 1592 / 2500.
+Congratulations! You won!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A  .  .  .  .  .  .  .  .  .  .
+    B  .  .  .  .  .  d  .  .  .  .
+    C  e  e  .  a  a  d  d  d  .  .
+    D  e  e  e  a  .  d  .  .  g  g
+    E  .  .  .  a  a  .  .  g  g  g
+    F  c  .  .  .  .  .  .  .  .  .
+    G  c  c  .  .  .  .  b  b  .  .
+    H  c  c  .  .  .  b  b  b  .  .
+    I  .  .  f  f  f  .  .  .  .  .
+    J  .  f  f     .  .  .  .  .  .
+Opponents points: 1592 / 2500.
+(Lower case fort letters are where you shot.)
+
+Process finished with exit code 0

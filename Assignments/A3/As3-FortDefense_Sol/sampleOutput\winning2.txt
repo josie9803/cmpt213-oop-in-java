@@ -1,0 +1,266 @@
+**************************************
+Sample Fortress Defense Output
+- WINNING THE GAME #2  -  (One opponent, cheat)
+**************************************
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A  .  .  .  .  .  .  .  .  .  .
+    B  .  .  .  .  .  .  .  .  .  .
+    C  .  .  .  .  .  .  .  .  .  .
+    D  .  .  .  .  .  .  .  .  .  .
+    E  .  .  .  .  .  .  .  .  .  .
+    F  .  .  .  .  .  .  .  .  .  .
+    G  .  .  .  .  .  .  .  .  .  .
+    H  .  .  .  .  .  .  .  A  A  .
+    I  .  .  .  .  .  .  A  A  A  .
+    J  .  .  .  .  .  .  .  .  .  .
+Opponents points: 0 / 2500.
+(Lower case fort letters are where you shot.)
+
+
+Starting game with 1 forts.
+------------------------
+Welcome to Fort Defense!
+by Brian Fraser
+------------------------
+
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    C  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    H  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    J  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 0 / 2500.
+Enter your move: a11
+Invalid target. Please enter a coordinate such as D10.
+Enter your move: a1
+Miss.
+Opponent #1 of 1 shot you for 20 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A     ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    C  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    H  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    J  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 20 / 2500.
+Enter your move: A2
+Miss.
+Opponent #1 of 1 shot you for 20 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A        ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    C  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    H  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    J  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 40 / 2500.
+Enter your move: Z5
+Invalid target. Please enter a coordinate such as D10.
+Enter your move: j10
+Miss.
+Opponent #1 of 1 shot you for 20 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A        ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    C  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    H  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    J  ~  ~  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 60 / 2500.
+Enter your move: j10
+Miss.
+Opponent #1 of 1 shot you for 20 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A        ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    C  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    H  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    J  ~  ~  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 80 / 2500.
+Enter your move: i9
+HIT!
+Opponent #1 of 1 shot you for 20 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A        ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    C  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    H  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  ~  ~  ~  ~  ~  ~  X  ~
+    J  ~  ~  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 100 / 2500.
+Enter your move: i9
+HIT!
+Opponent #1 of 1 shot you for 20 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A        ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    C  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    H  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  ~  ~  ~  ~  ~  ~  X  ~
+    J  ~  ~  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 120 / 2500.
+Enter your move: i8
+HIT!
+Opponent #1 of 1 shot you for 5 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A        ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    C  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    H  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  ~  ~  ~  ~  ~  X  X  ~
+    J  ~  ~  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 125 / 2500.
+Enter your move: i7
+HIT!
+Opponent #1 of 1 shot you for 2 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A        ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    C  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    H  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  ~  ~  ~  ~  X  X  X  ~
+    J  ~  ~  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 127 / 2500.
+Enter your move: i6
+Miss.
+Opponent #1 of 1 shot you for 2 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A        ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    C  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    H  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  ~  ~  ~     X  X  X  ~
+    J  ~  ~  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 129 / 2500.
+Enter your move: h7
+Miss.
+Opponent #1 of 1 shot you for 2 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A        ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    C  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    H  ~  ~  ~  ~  ~  ~     ~  ~  ~
+    I  ~  ~  ~  ~  ~     X  X  X  ~
+    J  ~  ~  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 131 / 2500.
+Enter your move: h8
+HIT!
+Opponent #1 of 1 shot you for 1 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A        ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    C  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    H  ~  ~  ~  ~  ~  ~     X  ~  ~
+    I  ~  ~  ~  ~  ~     X  X  X  ~
+    J  ~  ~  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 132 / 2500.
+Enter your move: h9
+HIT!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A        ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    C  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    H  ~  ~  ~  ~  ~  ~     X  X  ~
+    I  ~  ~  ~  ~  ~     X  X  X  ~
+    J  ~  ~  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 132 / 2500.
+Congratulations! You won!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A        .  .  .  .  .  .  .  .
+    B  .  .  .  .  .  .  .  .  .  .
+    C  .  .  .  .  .  .  .  .  .  .
+    D  .  .  .  .  .  .  .  .  .  .
+    E  .  .  .  .  .  .  .  .  .  .
+    F  .  .  .  .  .  .  .  .  .  .
+    G  .  .  .  .  .  .  .  .  .  .
+    H  .  .  .  .  .  .     a  a  .
+    I  .  .  .  .  .     a  a  a  .
+    J  .  .  .  .  .  .  .  .  .
+Opponents points: 132 / 2500.
+(Lower case fort letters are where you shot.)
+
+Process finished with exit code 0

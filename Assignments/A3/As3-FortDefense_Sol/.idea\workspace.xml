@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="50e65a72-277a-4f09-ba1d-8557224ce744" name="Changes" comment="213-As3 Water Fight">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/As3_FortressDefense_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Brian.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/As3-FortDefense.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/CRC.ods" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/GeneratedUML.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/GeneratedUML.ucls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/OODExplained.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/UML.class.violet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/UMLClassDiagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/UseCase.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sampleOutput/inputValidation.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sampleOutput/losing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sampleOutput/winning.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sampleOutput/winning2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/cmpt213/as3/model/Cell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/cmpt213/as3/model/Coordinate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/cmpt213/as3/model/Enemy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/cmpt213/as3/model/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/cmpt213/as3/model/GameBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/cmpt213/as3/model/Polyomino.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/cmpt213/as3/model/ScoreTracker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/cmpt213/as3/textui/FortDefense.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/cmpt213/as3/textui/TextUI.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2c6KF90RHvaDkfl2noOZJOP7CLA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.FortDefense.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/all-my-code/CMPT213-Code/2024-Spring/As3-FortDefense",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="FortDefense" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.cmpt213.as3.textui.FortDefense" />
+      <module name="As3-FortDefense" />
+      <option name="PROGRAM_PARAMETERS" value="10 --cheat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.cmpt213.as3.textui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FortDefense" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-19.0.2-corretto-19.0.2-4caba194b151-48ba4555" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="50e65a72-277a-4f09-ba1d-8557224ce744" name="Changes" comment="" />
+      <created>1707426481873</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707426481873</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="213-As3 Water Fight" />
+    <option name="LAST_COMMIT_MESSAGE" value="213-As3 Water Fight" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/ca/cmpt213/as3/textui/FortDefense.java</url>
+          <line>11</line>
+          <properties class="ca.cmpt213.as3.textui.FortDefense" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
