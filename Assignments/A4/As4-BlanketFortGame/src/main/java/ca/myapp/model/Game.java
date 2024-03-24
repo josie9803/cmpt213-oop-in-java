@@ -68,7 +68,9 @@ public class Game {
     }
 
     public long getNumActiveOpponentForts(){
-        return enemies.size();
+        return enemies.stream()
+                .filter(enemy -> !enemy.isFortDestroyed())
+                .count();
     }
 
     public GameBoard getBoard(){

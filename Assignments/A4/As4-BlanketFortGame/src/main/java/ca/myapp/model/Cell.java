@@ -2,7 +2,6 @@ package ca.myapp.model;
 
 /**
  * Represent the state of a game-board cell.
- * An immutable class.
  */
 public class Cell {
     private final boolean hasBeenShot;

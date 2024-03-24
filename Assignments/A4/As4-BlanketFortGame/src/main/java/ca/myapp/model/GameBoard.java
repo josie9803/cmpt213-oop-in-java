@@ -67,7 +67,9 @@ public class GameBoard {
     public void revealAllCells(){
         for (int row = 0; row < GameBoard.NUMBER_ROWS; row++){
             for (int col = 0; col < GameBoard.NUMBER_COLS; col++){
-                board[row][col].setRevealed(true);
+                if (!board[row][col].hasBeenShot()) {
+                    board[row][col].setRevealed(true);
+                }
             }
         }
     }

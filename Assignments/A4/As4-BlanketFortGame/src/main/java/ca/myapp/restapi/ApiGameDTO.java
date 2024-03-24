@@ -38,4 +38,12 @@ public class ApiGameDTO {
                 game.getLatestEnemyDamages()
         );
     }
+
+    public void updateFromGame(Game game) {
+        this.isGameWon = game.hasUserWon();
+        this.isGameLost = game.hasUserLost();
+        this.opponentPoints = game.getEnemyPoints();
+        this.numActiveOpponentForts = game.getNumActiveOpponentForts();
+        this.lastOpponentPoints = game.getLatestEnemyDamages();
+    }
 }

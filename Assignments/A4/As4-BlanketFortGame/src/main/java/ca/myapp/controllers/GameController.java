@@ -2,6 +2,7 @@ package ca.myapp.controllers;
 
 import ca.myapp.model.Coordinate;
 import ca.myapp.model.Game;
+import ca.myapp.model.GameBoard;
 import ca.myapp.restapi.ApiBoardDTO;
 import ca.myapp.restapi.ApiGameDTO;
 import ca.myapp.restapi.ApiLocationDTO;
@@ -12,6 +13,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicLong;
 
+/**
+ * GameController manages game-related API endpoints,
+ * including game creation, moves, and cheat state activation.
+ * also handles errors for invalid requests and missing game IDs.
+ */
 @RestController
 public class GameController {
     private List<ApiGameDTO> games = new ArrayList<>();
@@ -46,7 +52,7 @@ public class GameController {
                 return game;
             }
         }
-        throw new IdNotFound("Game Id not found");
+        throw new FileNotFound("Game Id not found");
     }
 
     @GetMapping("/api/games/{id}/board")
@@ -54,34 +60,36 @@ public class GameController {
         ApiGameDTO game = getGameById(gameId);
         Game gameModel = gameModels.get(game.gameNumber - 1);
         if (gameModel == null){
-            throw new IdNotFound("Game Id not found");
+            throw new FileNotFound("Game Id not found");
         }
-        ApiBoardDTO board = ApiBoardDTO.createFromGameBoard(gameModel.getBoard());
-        return board;
+        return ApiBoardDTO.createFromGameBoard(gameModel.getBoard());
     }
 
-    @PostMapping("/games/{id}/moves")
+    @PostMapping("api/games/{id}/moves")
     @ResponseStatus(HttpStatus.ACCEPTED)
     public void makeMove(@PathVariable("id") int gameId,
                          @RequestBody ApiLocationDTO locationDTO) {
         ApiGameDTO game = getGameById(gameId);
         Game gameModel = gameModels.get(game.gameNumber - 1);
         if (gameModel == null){
-            throw new IdNotFound("Game Id not found");
+            throw new FileNotFound("Game Id not found");
+        }
+
+        if (locationDTO == null ||
+                locationDTO.row < 0 || locationDTO.row >= GameBoard.NUMBER_ROWS ||
+                locationDTO.col < 0 || locationDTO.col >= GameBoard.NUMBER_COLS) {
+            throw new BadRequest("Invalid location");
         }
 
         Coordinate moveCoordinate = new Coordinate(locationDTO.row, locationDTO.col);
-//        if (!game.isValidMove(moveCoordinate)) {
-//            throw new BadRequest("Location is invalid");
-//        }
-//        game.recordPlayerShot(moveCoordinate);
-//        game.fireEnemyShots();
-//
-//        for (ApiGameDTO gameDTO : games) {
-//            if (gameDTO.getGameNumber() == gameId) {
-//                gameDTO.updateFromGame(game);
-//            }
-//        }
+        gameModel.recordPlayerShot(moveCoordinate);
+        gameModel.fireEnemyShots();
+
+        for (ApiGameDTO gameDTO : games) {
+            if (gameDTO.gameNumber == gameId) {
+                gameDTO.updateFromGame(gameModel);
+            }
+        }
     }
 
     @PostMapping("/api/games/{id}/cheatstate")
@@ -90,8 +98,8 @@ public class GameController {
                                    @RequestBody String cheat) {
         ApiGameDTO game = getGameById(gameId);
         Game gameModel = gameModels.get(game.gameNumber - 1);
-        if (game == null) {
-            throw new IdNotFound("Game Id not found");
+        if (gameModel == null){
+            throw new FileNotFound("Game Id not found");
         }
 
         if (!cheat.equals("SHOW_ALL")) {
@@ -102,8 +110,8 @@ public class GameController {
     }
 
     @ResponseStatus(value = HttpStatus.NOT_FOUND, reason = "Game Id not found")
-    public static class IdNotFound extends RuntimeException {
-        public IdNotFound(String str) {
+    public static class FileNotFound extends RuntimeException {
+        public FileNotFound(String str) {
             super(str);
         }
     }

@@ -33,15 +33,11 @@ public class ApiBoardDTO {
         return boardStates;
     }
 
-    private static String determineCellState(Cell cell) {
-        if (cell.hasBeenShot() && !cell.isRevealed()) {
-            return cell.hasFort() ? "hit" : "miss";
-        } else if (cell.isRevealed()) {
-            return cell.hasFort() ? "fort" : "field";
-        } else {
-            return "fog";
-        }
-    }
+private static String determineCellState(Cell cell) {
+    return cell.hasBeenShot() && !cell.isRevealed() ?
+            (cell.hasFort() ? "hit" : "miss")
+            : (cell.isRevealed() ? (cell.hasFort() ? "fort" : "field") : "fog");
+}
 
     public static ApiBoardDTO createFromGameBoard(GameBoard board){
         String[][] boardStates = makeBoardStates(board);
