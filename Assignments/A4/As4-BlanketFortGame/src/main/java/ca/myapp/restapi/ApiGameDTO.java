@@ -1,6 +1,7 @@
 package ca.myapp.restapi;
 
 import ca.myapp.model.Game;
+import ca.myapp.model.GameBoard;
 
 /**
  * DTO class for the REST API to define object structures required by the front-end.
@@ -18,10 +19,6 @@ public class ApiGameDTO {
     // If opponents have not yet fired, then it should be an empty array (0 size).
     public int[] lastOpponentPoints;
 
-    public ApiGameDTO() {
-    }
-
-    // Constructor with parameters
     public ApiGameDTO(int gameNumber, boolean isGameWon, boolean isGameLost, int opponentPoints, long numActiveOpponentForts, int[] lastOpponentPoints) {
         this.gameNumber = gameNumber;
         this.isGameWon = isGameWon;
@@ -31,14 +28,13 @@ public class ApiGameDTO {
         this.lastOpponentPoints = lastOpponentPoints;
     }
 
-    // Static factory method to create ApiGameDTO from Game instance
-    public static ApiGameDTO fromGame(Game game) {
+    public static ApiGameDTO createFromGameModel(Game game) {
         return new ApiGameDTO(
-                1,
+                0,
                 game.hasUserWon(),
                 game.hasUserLost(),
                 game.getEnemyPoints(),
-                game.getEnemyPoints(),
+                game.getNumActiveOpponentForts(),
                 game.getLatestEnemyDamages()
         );
     }

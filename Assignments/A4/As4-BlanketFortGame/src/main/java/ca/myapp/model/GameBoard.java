@@ -13,7 +13,7 @@ public class GameBoard {
     public GameBoard() {
         for (int row = 0; row < NUMBER_ROWS; row++) {
             for (int col = 0; col < NUMBER_COLS; col++) {
-                board[row][col] = new Cell(false, 0);
+                board[row][col] = new Cell(false, 0, false);
             }
         }
     }
@@ -62,5 +62,13 @@ public class GameBoard {
         int row = cell.getRowIndex();
         int col = cell.getColIndex();
         board[row][col] = board[row][col].makeContainEnemy(enemyNumberAtCell);
+    }
+
+    public void revealAllCells(){
+        for (int row = 0; row < GameBoard.NUMBER_ROWS; row++){
+            for (int col = 0; col < GameBoard.NUMBER_COLS; col++){
+                board[row][col].setRevealed(true);
+            }
+        }
     }
 }

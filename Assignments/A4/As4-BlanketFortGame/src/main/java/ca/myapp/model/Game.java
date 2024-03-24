@@ -12,7 +12,6 @@ public class Game {
     private final ScoreTracker enemyScoreTracker = new ScoreTracker();
     private final GameBoard board = new GameBoard();
     private final List<Enemy> enemies = new ArrayList<>();
-
     private List<Integer> latestEnemyDamages;
     private boolean lastPlayerShotHit;
 
@@ -67,4 +66,13 @@ public class Game {
                 .mapToInt(Integer::intValue)
                 .toArray();
     }
+
+    public long getNumActiveOpponentForts(){
+        return enemies.size();
+    }
+
+    public GameBoard getBoard(){
+        return board;
+    }
+
 }

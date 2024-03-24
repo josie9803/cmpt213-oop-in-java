@@ -8,4 +8,13 @@ package ca.myapp.restapi;
 public class ApiLocationDTO {
     public int row;
     public int col;
+
+    public ApiLocationDTO(int row, int col) {
+        this.row = row;
+        this.col = col;
+    }
+
+    public static ApiLocationDTO createFromCoordinates(int row, int col) {
+        return new ApiLocationDTO(row, col);
+    }
 }
