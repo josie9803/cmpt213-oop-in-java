@@ -5,7 +5,10 @@ import ca.cmpt213.as4.UI.ColorMapper;
 import ca.cmpt213.as4.trivial_model.ShapeDescription;
 
 import java.awt.*;
-
+/**
+ * A concrete class of Background interface
+ * Requirement: Entire background of box, including border and middle, is the backgroundColor
+ */
 public class SolidBackground implements Background{
     @Override
     public void drawBackground(Canvas canvas, ShapeDescription description) {

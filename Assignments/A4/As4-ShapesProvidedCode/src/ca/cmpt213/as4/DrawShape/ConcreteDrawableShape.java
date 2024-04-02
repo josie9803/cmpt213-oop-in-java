@@ -15,6 +15,11 @@ import ca.cmpt213.as4.UI.Canvas;
 import ca.cmpt213.as4.DrawShape.DrawableShape;
 import ca.cmpt213.as4.trivial_model.ShapeDescription;
 
+/**
+ *  Implements DrawableShape interface
+ *  to draw graphical shapes on a canvas based on a ShapeDescription object.
+ *  It allows customization of border style, fill text, and background style.
+ */
 
 public class ConcreteDrawableShape implements DrawableShape {
     private ShapeDescription description;

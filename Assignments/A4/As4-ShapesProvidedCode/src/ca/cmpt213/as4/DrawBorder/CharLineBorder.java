@@ -2,7 +2,10 @@ package ca.cmpt213.as4.DrawBorder;
 
 import ca.cmpt213.as4.UI.Canvas;
 import ca.cmpt213.as4.trivial_model.ShapeDescription;
-
+/**
+ * A concrete class of Border interface
+ * Requirement: Draw the border with the lineChar character
+ */
 public class CharLineBorder implements Border {
     @Override
     public void drawBorder(Canvas canvas, ShapeDescription description) {
@@ -15,17 +18,21 @@ public class CharLineBorder implements Border {
                     currentRow + description.getTop(), lineChar);
         }
 
-        for (currentCol--; currentRow < description.getHeight(); currentRow++){
+        for (currentCol--, currentRow++; currentRow < description.getHeight(); currentRow++){
             canvas.setCellText(currentCol + description.getLeft(),
                     currentRow + description.getTop(), lineChar);
         }
 
-        for (currentRow--; currentCol > 0; currentCol--){
+        if (currentRow == 0 && currentCol == 0){
+            return;
+        }
+
+        for (currentRow--, currentCol--; currentCol > -1; currentCol--){
             canvas.setCellText(currentCol + description.getLeft(),
                     currentRow + description.getTop(), lineChar);
         }
 
-        for (; currentRow > 0; currentRow--){
+        for (currentCol++, currentRow--; currentRow > 0; currentRow--){
             canvas.setCellText(currentCol + description.getLeft(),
                     currentRow + description.getTop(), lineChar);
         }

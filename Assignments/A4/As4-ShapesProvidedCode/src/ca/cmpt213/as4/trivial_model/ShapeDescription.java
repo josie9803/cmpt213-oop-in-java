@@ -1,5 +1,10 @@
 package ca.cmpt213.as4.trivial_model;
 
+/**
+ * ShapeDescription class represents the attributes of the shapes
+ * that were read in from JSON files
+ */
+
 public class ShapeDescription {
     private int top;
     private int left;

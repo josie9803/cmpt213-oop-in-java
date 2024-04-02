@@ -16,6 +16,13 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+/**
+ * SimpleModel implements ShapeModel interface.
+ * It provides methods to populate data from JSON file,
+ * redact shapes, and iterate over shapes.
+ *
+ */
+
 public class SimpleModel implements ShapeModel {
     private List<ConcreteDrawableShape> shapes = new ArrayList<>();
     @Override

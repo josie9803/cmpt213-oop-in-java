@@ -5,7 +5,11 @@ import ca.cmpt213.as4.UI.ColorMapper;
 import ca.cmpt213.as4.trivial_model.ShapeDescription;
 
 import java.awt.*;
-
+/**
+ * A concrete class of Background interface
+ * Requirements: top-right half of the box will be filled in with backgroundColor;
+ * the bottom-left will be white. Color the main diagonal the backgroundColor.
+ */
 public class TriangleBackground implements Background{
     @Override
     public void drawBackground(Canvas canvas, ShapeDescription description) {

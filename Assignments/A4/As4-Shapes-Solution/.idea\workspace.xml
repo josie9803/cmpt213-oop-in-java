@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="46df906a-5964-4c8d-b8fc-069eaf841f8b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../As3-FortDefense/src/ca/cmpt213/as3/model/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/../As4-FortDefenseRestAPI/src/main/java/ca/cmpt213/as4fortdefense/model/Cell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../As3-FortDefense/src/ca/cmpt213/as3/model/Coordinate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../As4-FortDefenseRestAPI/src/main/java/ca/cmpt213/as4fortdefense/model/Coordinate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../As3-FortDefense/src/ca/cmpt213/as3/model/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../As4-FortDefenseRestAPI/src/main/java/ca/cmpt213/as4fortdefense/model/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../As3-FortDefense/src/ca/cmpt213/as3/model/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/../As4-FortDefenseRestAPI/src/main/java/ca/cmpt213/as4fortdefense/model/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../As3-FortDefense/src/ca/cmpt213/as3/model/GameBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../As4-FortDefenseRestAPI/src/main/java/ca/cmpt213/as4fortdefense/model/GameBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../As3-FortDefense/src/ca/cmpt213/as3/model/Polyomino.java" beforeDir="false" afterPath="$PROJECT_DIR$/../As4-FortDefenseRestAPI/src/main/java/ca/cmpt213/as4fortdefense/model/Polyomino.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../As3-FortDefense/src/ca/cmpt213/as3/model/ScoreTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../As4-FortDefenseRestAPI/src/main/java/ca/cmpt213/as4fortdefense/model/ScoreTracker.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2d3pkwNKmfLiSOKBcPEmc2vIGly" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "jdk.selected.JAVA_MODULE": "openjdk-19",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/all-my-code/CMPT213-Code/2024-Spring/As4-ShapesProvidedCode",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.46642134"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-19.0.2-corretto-19.0.2-4caba194b151-48ba4555" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="46df906a-5964-4c8d-b8fc-069eaf841f8b" name="Changes" comment="" />
+      <created>1709246762461</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709246762461</updated>
+    </task>
+    <servers />
+  </component>
+</project>

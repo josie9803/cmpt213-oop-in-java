@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="241c8052-92fb-44e8-892f-f799b912bd6f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/2024-03-23_21-57-44.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/2024-03-23_21-57-44.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A5/CoursePlanner/data/course_data_2018.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A5/CoursePlanner/src/main/java/ca/courseplanner/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A5/CoursePlanner/src/main/java/ca/courseplanner/controllers/AppController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../213-SampleMidterm-SOLUTION.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../213-SampleMidterm.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../As4-BlanketFortGame.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../As4-ShapesProvidedCode.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../As4-ShapesProvidedCode/JSONFiles/line_styles.json" beforeDir="false" afterPath="$PROJECT_DIR$/../As4-ShapesProvidedCode/JSONFiles/line_styles.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../As4-ShapesProvidedCode/out/production/As4-Shapes/ca/cmpt213/as4/DrawBackground/CheckerBackground.class" beforeDir="false" afterPath="$PROJECT_DIR$/../As4-ShapesProvidedCode/out/production/As4-Shapes/ca/cmpt213/as4/DrawBackground/CheckerBackground.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../As4-ShapesProvidedCode/out/production/As4-Shapes/ca/cmpt213/as4/DrawBackground/SolidBackground.class" beforeDir="false" afterPath="$PROJECT_DIR$/../As4-ShapesProvidedCode/out/production/As4-Shapes/ca/cmpt213/as4/DrawBackground/SolidBackground.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../As4-ShapesProvidedCode/out/production/As4-Shapes/ca/cmpt213/as4/DrawBackground/TriangleBackground.class" beforeDir="false" afterPath="$PROJECT_DIR$/../As4-ShapesProvidedCode/out/production/As4-Shapes/ca/cmpt213/as4/DrawBackground/TriangleBackground.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../As4-ShapesProvidedCode/out/production/As4-Shapes/ca/cmpt213/as4/DrawBorder/AsciiLineBorder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../As4-ShapesProvidedCode/out/production/As4-Shapes/ca/cmpt213/as4/DrawBorder/AsciiLineBorder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../As4-ShapesProvidedCode/out/production/As4-Shapes/ca/cmpt213/as4/DrawBorder/CharLineBorder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../As4-ShapesProvidedCode/out/production/As4-Shapes/ca/cmpt213/as4/DrawBorder/CharLineBorder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../As4-ShapesProvidedCode/out/production/As4-Shapes/ca/cmpt213/as4/DrawBorder/SequenceBorder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../As4-ShapesProvidedCode/out/production/As4-Shapes/ca/cmpt213/as4/DrawBorder/SequenceBorder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../As4-ShapesProvidedCode/out/production/As4-Shapes/ca/cmpt213/as4/DrawFillText/SolidFillText.class" beforeDir="false" afterPath="$PROJECT_DIR$/../As4-ShapesProvidedCode/out/production/As4-Shapes/ca/cmpt213/as4/DrawFillText/SolidFillText.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../As4-ShapesProvidedCode/out/production/As4-Shapes/ca/cmpt213/as4/DrawFillText/WrapperFillText.class" beforeDir="false" afterPath="$PROJECT_DIR$/../As4-ShapesProvidedCode/out/production/As4-Shapes/ca/cmpt213/as4/DrawFillText/WrapperFillText.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../As4-ShapesProvidedCode/out/production/As4-Shapes/ca/cmpt213/as4/DrawShape/ConcreteDrawableShape.class" beforeDir="false" afterPath="$PROJECT_DIR$/../As4-ShapesProvidedCode/out/production/As4-Shapes/ca/cmpt213/as4/DrawShape/ConcreteDrawableShape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../As4-ShapesProvidedCode/out/production/As4-Shapes/ca/cmpt213/as4/trivial_model/ShapeDescription.class" beforeDir="false" afterPath="$PROJECT_DIR$/../As4-ShapesProvidedCode/out/production/As4-Shapes/ca/cmpt213/as4/trivial_model/ShapeDescription.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../As4-ShapesProvidedCode/out/production/As4-Shapes/ca/cmpt213/as4/trivial_model/ShapeWrapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../As4-ShapesProvidedCode/out/production/As4-Shapes/ca/cmpt213/as4/trivial_model/ShapeWrapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../As4-ShapesProvidedCode/out/production/As4-Shapes/ca/cmpt213/as4/trivial_model/SimpleModel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../As4-ShapesProvidedCode/out/production/As4-Shapes/ca/cmpt213/as4/trivial_model/SimpleModel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../As4-ShapesProvidedCode/out/production/As4-Shapes/ca/cmpt213/as4/trivial_model/SimpleModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../As4-ShapesProvidedCode/out/production/As4-Shapes/ca/cmpt213/as4/trivial_model/SimpleModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../As4-ShapesProvidedCode/src/ca/cmpt213/as4/DrawBackground/Background.java" beforeDir="false" afterPath="$PROJECT_DIR$/../As4-ShapesProvidedCode/src/ca/cmpt213/as4/DrawBackground/Background.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../As4-ShapesProvidedCode/src/ca/cmpt213/as4/DrawBackground/CheckerBackground.java" beforeDir="false" afterPath="$PROJECT_DIR$/../As4-ShapesProvidedCode/src/ca/cmpt213/as4/DrawBackground/CheckerBackground.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../As4-ShapesProvidedCode/src/ca/cmpt213/as4/DrawBackground/SolidBackground.java" beforeDir="false" afterPath="$PROJECT_DIR$/../As4-ShapesProvidedCode/src/ca/cmpt213/as4/DrawBackground/SolidBackground.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../As4-ShapesProvidedCode/src/ca/cmpt213/as4/DrawBackground/TriangleBackground.java" beforeDir="false" afterPath="$PROJECT_DIR$/../As4-ShapesProvidedCode/src/ca/cmpt213/as4/DrawBackground/TriangleBackground.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../As4-ShapesProvidedCode/src/ca/cmpt213/as4/DrawBorder/AsciiLineBorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../As4-ShapesProvidedCode/src/ca/cmpt213/as4/DrawBorder/AsciiLineBorder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../As4-ShapesProvidedCode/src/ca/cmpt213/as4/DrawBorder/Border.java" beforeDir="false" afterPath="$PROJECT_DIR$/../As4-ShapesProvidedCode/src/ca/cmpt213/as4/DrawBorder/Border.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../As4-ShapesProvidedCode/src/ca/cmpt213/as4/DrawBorder/CharLineBorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../As4-ShapesProvidedCode/src/ca/cmpt213/as4/DrawBorder/CharLineBorder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../As4-ShapesProvidedCode/src/ca/cmpt213/as4/DrawBorder/SequenceBorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../As4-ShapesProvidedCode/src/ca/cmpt213/as4/DrawBorder/SequenceBorder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../As4-ShapesProvidedCode/src/ca/cmpt213/as4/DrawFillText/FillText.java" beforeDir="false" afterPath="$PROJECT_DIR$/../As4-ShapesProvidedCode/src/ca/cmpt213/as4/DrawFillText/FillText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../As4-ShapesProvidedCode/src/ca/cmpt213/as4/DrawFillText/SolidFillText.java" beforeDir="false" afterPath="$PROJECT_DIR$/../As4-ShapesProvidedCode/src/ca/cmpt213/as4/DrawFillText/SolidFillText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../As4-ShapesProvidedCode/src/ca/cmpt213/as4/DrawFillText/WrapperFillText.java" beforeDir="false" afterPath="$PROJECT_DIR$/../As4-ShapesProvidedCode/src/ca/cmpt213/as4/DrawFillText/WrapperFillText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../As4-ShapesProvidedCode/src/ca/cmpt213/as4/DrawShape/ConcreteDrawableShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/../As4-ShapesProvidedCode/src/ca/cmpt213/as4/DrawShape/ConcreteDrawableShape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../As4-ShapesProvidedCode/src/ca/cmpt213/as4/trivial_model/ShapeDescription.java" beforeDir="false" afterPath="$PROJECT_DIR$/../As4-ShapesProvidedCode/src/ca/cmpt213/as4/trivial_model/ShapeDescription.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../As4-ShapesProvidedCode/src/ca/cmpt213/as4/trivial_model/ShapeWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../As4-ShapesProvidedCode/src/ca/cmpt213/as4/trivial_model/ShapeWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../As4-ShapesProvidedCode/src/ca/cmpt213/as4/trivial_model/SimpleModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../As4-ShapesProvidedCode/src/ca/cmpt213/as4/trivial_model/SimpleModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lecture notes/11-Inheritance.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lecture notes/11-Inheritance.pdf" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="As4-BlanketFortGame" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2e4YMtdONizsaGS3PCfT6aMcRtq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.As4-BlanketFortGame [:Application.main()].executor": "Run",
+    "Gradle.As4-BlanketFortGame [:Main.main()].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/josietran/SFU/Courses/CMPT213/Assignments/A4/As4-BlanketFortGame",
+    "onboarding.tips.debug.path": "/Users/josietran/SFU/Courses/CMPT213/Assignments/A4/As4-BlanketFortGame/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-4caba194b151-9b16c6e2" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="241c8052-92fb-44e8-892f-f799b912bd6f" name="Changes" comment="" />
+      <created>1711165273996</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711165273996</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

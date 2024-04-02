@@ -5,7 +5,11 @@ import ca.cmpt213.as4.UI.ColorMapper;
 import ca.cmpt213.as4.trivial_model.ShapeDescription;
 
 import java.awt.*;
-
+/**
+ * A concrete class of Background interface
+ * Requirement: checkerboard pattern with the top left cell being backgroundColor,
+ * alternating with white to make a checkerboard.
+ */
 public class CheckerBackground implements Background {
     @Override
     public void drawBackground(Canvas canvas, ShapeDescription description) {
