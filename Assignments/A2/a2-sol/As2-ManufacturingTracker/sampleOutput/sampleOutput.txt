@@ -1,0 +1,476 @@
+***************************************
+Water Purification Inventory Management
+by Your Name Here.
+***************************************
+
+*************
+* Main Menu *
+*************
+1. Read JSON input file.
+2. Display info on a unit.
+3. Create new unit.
+4. Test a unit.
+5. Ship a unit.
+6. Print report.
+7. Set report sort order.
+8. Exit
+> 1
+Enter the path to the input JSON file; blank to cancel.
+WARNING: This will replace all current data with data from the file.
+> sampleInput/data.json
+Read 12 products from JSON file 'sampleInput/data.json'.
+
+*************
+* Main Menu *
+*************
+1. Read JSON input file.
+2. Display info on a unit.
+3. Create new unit.
+4. Test a unit.
+5. Ship a unit.
+6. Print report.
+7. Set report sort order.
+8. Exit
+> 2
+Enter the serial number (0 for list, -1 for cancel): 0
+
+List of Water Purification Units:
+*************************************
+     Model           Serial     # Tests   Ship Date
+----------  ---------------  ----------  ----------
+ ZZ-9-LAST              000           2           -
+   ABC-123              101           4  2010-12-30
+   XYZ-335              202           5           -
+   ABC-123              303           1  2010-01-01
+ EarlyTest              404           1           -
+  LateTest              505           1           -
+   NoTests              606           0           -
+   XYZ-335           532515           2  2023-01-25
+   XYZ-335         60000006           5           -
+   ABC-123   99999999999201           0           -
+   ABC-123   99999999999302           1  2020-01-01
+   ABC-123   99999999999403           0  1984-12-14
+Enter the serial number (0 for list, -1 for cancel): -1
+
+*************
+* Main Menu *
+*************
+1. Read JSON input file.
+2. Display info on a unit.
+3. Create new unit.
+4. Test a unit.
+5. Ship a unit.
+6. Print report.
+7. Set report sort order.
+8. Exit
+> 2
+Enter the serial number (0 for list, -1 for cancel): 101
+
+Unit details:
+    Serial: 101
+     Model: ABC-123
+ Ship Date: 2010-12-30
+
+Tests
+*********
+        Date   Passed?  Test Comments
+------------  --------  -------------
+  2009-01-01    FAILED  Bad connector
+  2009-01-02    Passed  Connector replaced
+  2010-12-01    FAILED  Unit sat idle; battery dead
+  2009-12-22    Passed  Battery charged and unit retested
+
+*************
+* Main Menu *
+*************
+1. Read JSON input file.
+2. Display info on a unit.
+3. Create new unit.
+4. Test a unit.
+5. Ship a unit.
+6. Print report.
+7. Set report sort order.
+8. Exit
+> 3
+Enter product info; blank line to quit.
+Model: 808
+Serial number: 12800
+Unable to add the product.
+     'Serial Number Error: Checksum does not match.'
+Please try again.
+Serial number: 200800
+Unable to add the product.
+     'Serial Number Error: Checksum does not match.'
+Please try again.
+Serial number: 200800
+Unable to add the product.
+     'Serial Number Error: Checksum does not match.'
+Please try again.
+Serial number: 02800
+Unable to add the product.
+     'Serial Number Error: Checksum does not match.'
+Please try again.
+Serial number: 200810
+
+*************
+* Main Menu *
+*************
+1. Read JSON input file.
+2. Display info on a unit.
+3. Create new unit.
+4. Test a unit.
+5. Ship a unit.
+6. Print report.
+7. Set report sort order.
+8. Exit
+> 4
+Enter the serial number (0 for list, -1 for cancel): 0
+
+List of Water Purification Units:
+*************************************
+     Model           Serial     # Tests   Ship Date
+----------  ---------------  ----------  ----------
+ ZZ-9-LAST              000           2           -
+   ABC-123              101           4  2010-12-30
+   XYZ-335              202           5           -
+   ABC-123              303           1  2010-01-01
+ EarlyTest              404           1           -
+  LateTest              505           1           -
+   NoTests              606           0           -
+       808           200810           0           -
+   XYZ-335           532515           2  2023-01-25
+   XYZ-335         60000006           5           -
+   ABC-123   99999999999201           0           -
+   ABC-123   99999999999302           1  2020-01-01
+   ABC-123   99999999999403           0  1984-12-14
+Enter the serial number (0 for list, -1 for cancel): 808
+No unit found matching serial '808'
+Enter the serial number (0 for list, -1 for cancel): 200810
+Pass? (Y/n): y
+Comment: It passed!
+Test recorded.
+
+*************
+* Main Menu *
+*************
+1. Read JSON input file.
+2. Display info on a unit.
+3. Create new unit.
+4. Test a unit.
+5. Ship a unit.
+6. Print report.
+7. Set report sort order.
+8. Exit
+> 2
+Enter the serial number (0 for list, -1 for cancel): 200810
+
+Unit details:
+    Serial: 200810
+     Model: 808
+ Ship Date: -
+
+Tests
+*********
+        Date   Passed?  Test Comments
+------------  --------  -------------
+  2023-01-26    Passed  It passed!
+
+*************
+* Main Menu *
+*************
+1. Read JSON input file.
+2. Display info on a unit.
+3. Create new unit.
+4. Test a unit.
+5. Ship a unit.
+6. Print report.
+7. Set report sort order.
+8. Exit
+> 5
+Enter the serial number (0 for list, -1 for cancel): 200810
+Unit successfully shipped.
+
+*************
+* Main Menu *
+*************
+1. Read JSON input file.
+2. Display info on a unit.
+3. Create new unit.
+4. Test a unit.
+5. Ship a unit.
+6. Print report.
+7. Set report sort order.
+8. Exit
+> 2
+Enter the serial number (0 for list, -1 for cancel): 200810
+
+Unit details:
+    Serial: 200810
+     Model: 808
+ Ship Date: 2023-01-26
+
+Tests
+*********
+        Date   Passed?  Test Comments
+------------  --------  -------------
+  2023-01-26    Passed  It passed!
+
+*************
+* Main Menu *
+*************
+1. Read JSON input file.
+2. Display info on a unit.
+3. Create new unit.
+4. Test a unit.
+5. Ship a unit.
+6. Print report.
+7. Set report sort order.
+8. Exit
+> 6
+
+******************
+* Report Options *
+******************
+1. ALL:           All products.
+2. DEFECTIVE:     Products that failed their last test.
+3. READY-TO-SHIP: Products passed tests, not shipped.
+4. Cancel report request.
+> 1
+
+List of Water Purification Units:
+*************************************
+     Model           Serial     # Tests   Ship Date
+----------  ---------------  ----------  ----------
+ ZZ-9-LAST              000           2           -
+   ABC-123              101           4  2010-12-30
+   XYZ-335              202           5           -
+   ABC-123              303           1  2010-01-01
+ EarlyTest              404           1           -
+  LateTest              505           1           -
+   NoTests              606           0           -
+       808           200810           1  2023-01-26
+   XYZ-335           532515           2  2023-01-25
+   XYZ-335         60000006           5           -
+   ABC-123   99999999999201           0           -
+   ABC-123   99999999999302           1  2020-01-01
+   ABC-123   99999999999403           0  1984-12-14
+
+*************
+* Main Menu *
+*************
+1. Read JSON input file.
+2. Display info on a unit.
+3. Create new unit.
+4. Test a unit.
+5. Ship a unit.
+6. Print report.
+7. Set report sort order.
+8. Exit
+> 7
+
+*************************************
+* Select desired report sort order: *
+*************************************
+1. Sort by serial number
+2. Sort by model, then serial number.
+3. Sort by most recent test date.
+4. Cancel
+> 2
+
+*************
+* Main Menu *
+*************
+1. Read JSON input file.
+2. Display info on a unit.
+3. Create new unit.
+4. Test a unit.
+5. Ship a unit.
+6. Print report.
+7. Set report sort order.
+8. Exit
+> 6
+
+******************
+* Report Options *
+******************
+1. ALL:           All products.
+2. DEFECTIVE:     Products that failed their last test.
+3. READY-TO-SHIP: Products passed tests, not shipped.
+4. Cancel report request.
+> 1
+
+List of Water Purification Units:
+*************************************
+     Model           Serial     # Tests   Ship Date
+----------  ---------------  ----------  ----------
+       808           200810           1  2023-01-26
+   ABC-123              101           4  2010-12-30
+   ABC-123              303           1  2010-01-01
+   ABC-123   99999999999201           0           -
+   ABC-123   99999999999302           1  2020-01-01
+   ABC-123   99999999999403           0  1984-12-14
+ EarlyTest              404           1           -
+  LateTest              505           1           -
+   NoTests              606           0           -
+   XYZ-335              202           5           -
+   XYZ-335           532515           2  2023-01-25
+   XYZ-335         60000006           5           -
+ ZZ-9-LAST              000           2           -
+
+*************
+* Main Menu *
+*************
+1. Read JSON input file.
+2. Display info on a unit.
+3. Create new unit.
+4. Test a unit.
+5. Ship a unit.
+6. Print report.
+7. Set report sort order.
+8. Exit
+> 7
+
+*************************************
+* Select desired report sort order: *
+*************************************
+1. Sort by serial number
+2. Sort by model, then serial number.
+3. Sort by most recent test date.
+4. Cancel
+> 3
+
+*************
+* Main Menu *
+*************
+1. Read JSON input file.
+2. Display info on a unit.
+3. Create new unit.
+4. Test a unit.
+5. Ship a unit.
+6. Print report.
+7. Set report sort order.
+8. Exit
+> 6
+
+******************
+* Report Options *
+******************
+1. ALL:           All products.
+2. DEFECTIVE:     Products that failed their last test.
+3. READY-TO-SHIP: Products passed tests, not shipped.
+4. Cancel report request.
+> 1
+
+List of Water Purification Units:
+*************************************
+     Model           Serial     # Tests   Ship Date
+----------  ---------------  ----------  ----------
+ EarlyTest              404           1           -
+   ABC-123              101           4  2010-12-30
+   ABC-123              303           1  2010-01-01
+   ABC-123   99999999999302           1  2020-01-01
+   XYZ-335           532515           2  2023-01-25
+       808           200810           1  2023-01-26
+   XYZ-335         60000006           5           -
+   XYZ-335              202           5           -
+ ZZ-9-LAST              000           2           -
+  LateTest              505           1           -
+   ABC-123   99999999999201           0           -
+   ABC-123   99999999999403           0  1984-12-14
+   NoTests              606           0           -
+
+*************
+* Main Menu *
+*************
+1. Read JSON input file.
+2. Display info on a unit.
+3. Create new unit.
+4. Test a unit.
+5. Ship a unit.
+6. Print report.
+7. Set report sort order.
+8. Exit
+> 6
+
+******************
+* Report Options *
+******************
+1. ALL:           All products.
+2. DEFECTIVE:     Products that failed their last test.
+3. READY-TO-SHIP: Products passed tests, not shipped.
+4. Cancel report request.
+> 2
+
+DEFECTIVE Water Purification Units:
+***************************************
+     Model           Serial     # Tests    Test Date  Test Comments
+----------  ---------------  ----------  -----------  -------------
+ EarlyTest              404           1   1009-04-12  Unable to boot
+   ABC-123              303           1   2010-01-01  Smoke *everywhere*!
+   XYZ-335         60000006           5   2030-01-06  Retest after unit dropped; broken connector
+
+*************
+* Main Menu *
+*************
+1. Read JSON input file.
+2. Display info on a unit.
+3. Create new unit.
+4. Test a unit.
+5. Ship a unit.
+6. Print report.
+7. Set report sort order.
+8. Exit
+> 6
+
+******************
+* Report Options *
+******************
+1. ALL:           All products.
+2. DEFECTIVE:     Products that failed their last test.
+3. READY-TO-SHIP: Products passed tests, not shipped.
+4. Cancel report request.
+> 3
+
+READ-TO-SHIP Water Purification Units:
+******************************************
+     Model           Serial    Test Date
+----------  ---------------  -----------
+   XYZ-335              202   2032-01-06
+ ZZ-9-LAST              000   2099-12-31
+  LateTest              505   9999-04-12
+
+*************
+* Main Menu *
+*************
+1. Read JSON input file.
+2. Display info on a unit.
+3. Create new unit.
+4. Test a unit.
+5. Ship a unit.
+6. Print report.
+7. Set report sort order.
+8. Exit
+> 6
+
+******************
+* Report Options *
+******************
+1. ALL:           All products.
+2. DEFECTIVE:     Products that failed their last test.
+3. READY-TO-SHIP: Products passed tests, not shipped.
+4. Cancel report request.
+> 4
+
+*************
+* Main Menu *
+*************
+1. Read JSON input file.
+2. Display info on a unit.
+3. Create new unit.
+4. Test a unit.
+5. Ship a unit.
+6. Print report.
+7. Set report sort order.
+8. Exit
+> 8
+

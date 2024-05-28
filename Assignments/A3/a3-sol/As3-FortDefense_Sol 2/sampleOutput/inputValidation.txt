@@ -1,0 +1,615 @@
+**************************************
+Sample Fort Defense Output
+INPUT VALIDATION
+**************************************
+
+Windows PowerShell
+PS C:\all-my-code\CMPT213-Code\2024-Spring\As3-FortDefense>
+PS C:\all-my-code\CMPT213-Code\2024-Spring\As3-FortDefense> java -jar .\out\artifacts\As3_FortressDefense_jar\As3-FortressDefense.jar 20 --cheat
+Error: Unable to place 20 on the board.
+       Try running game again with fewer forts.
+PS C:\all-my-code\CMPT213-Code\2024-Spring\As3-FortDefense> java -jar .\out\artifacts\As3_FortressDefense_jar\As3-FortressDefense.jar 5 --cheat
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A  .  .  .  .  .  .  .  .  .  .
+    B  .  .  .  .  .  .  .  .  .  .
+    C  .  .  .  .  .  .  .  E  .  .
+    D  .  .  .  .  .  .  .  E  E  .
+    E  .  D  D  .  .  .  .  E  .  .
+    F  .  D  D  .  A  A  A  E  .  .
+    G  .  D  .  .  A  A  .  B  B  .
+    H  .  .  .  .  .  .  .  .  B  .
+    I  .  C  .  .  .  .  .  .  B  B
+    J  .  C  C  C  C  .  .  .  .  .
+Opponents points: 0 / 2500.
+(Lower case fort letters are where you shot.)
+
+
+Starting game with 5 forts.
+------------------------
+Welcome to Fort Defense!
+by Brian Fraser
+------------------------
+
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    C  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    H  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    J  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 0 / 2500.
+Enter your move: a0
+Invalid target. Please enter a coordinate such as D10.
+Enter your move: a11
+Invalid target. Please enter a coordinate such as D10.
+Enter your move: z0
+Invalid target. Please enter a coordinate such as D10.
+Enter your move: z5
+Invalid target. Please enter a coordinate such as D10.
+Enter your move: z11
+Invalid target. Please enter a coordinate such as D10.
+Enter your move:
+Invalid target. Please enter a coordinate such as D10.
+Enter your move: Hello world! I'm here.
+Invalid target. Please enter a coordinate such as D10.
+Enter your move: x0
+Invalid target. Please enter a coordinate such as D10.
+Enter your move: k1
+Invalid target. Please enter a coordinate such as D10.
+Enter your move: k10
+Invalid target. Please enter a coordinate such as D10.
+Enter your move: k11
+Invalid target. Please enter a coordinate such as D10.
+Enter your move: a0 a10
+Invalid target. Please enter a coordinate such as D10.
+Enter your move: a1
+Miss.
+Opponent #1 of 5 shot you for 20 points!
+Opponent #2 of 5 shot you for 20 points!
+Opponent #3 of 5 shot you for 20 points!
+Opponent #4 of 5 shot you for 20 points!
+Opponent #5 of 5 shot you for 20 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A     ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    C  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    H  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    J  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 100 / 2500.
+Enter your move: A1
+Miss.
+Opponent #1 of 5 shot you for 20 points!
+Opponent #2 of 5 shot you for 20 points!
+Opponent #3 of 5 shot you for 20 points!
+Opponent #4 of 5 shot you for 20 points!
+Opponent #5 of 5 shot you for 20 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A     ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    C  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    H  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    J  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 200 / 2500.
+Enter your move: G9
+HIT!
+Opponent #1 of 5 shot you for 20 points!
+Opponent #2 of 5 shot you for 20 points!
+Opponent #3 of 5 shot you for 20 points!
+Opponent #4 of 5 shot you for 20 points!
+Opponent #5 of 5 shot you for 20 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A     ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    C  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  ~  ~  ~  ~  ~  ~  ~  ~  X  ~
+    H  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    J  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 300 / 2500.
+Enter your move: g9
+HIT!
+Opponent #1 of 5 shot you for 20 points!
+Opponent #2 of 5 shot you for 20 points!
+Opponent #3 of 5 shot you for 20 points!
+Opponent #4 of 5 shot you for 20 points!
+Opponent #5 of 5 shot you for 20 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A     ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    C  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  ~  ~  ~  ~  ~  ~  ~  ~  X  ~
+    H  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    J  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 400 / 2500.
+Enter your move: g9
+HIT!
+Opponent #1 of 5 shot you for 20 points!
+Opponent #2 of 5 shot you for 20 points!
+Opponent #3 of 5 shot you for 20 points!
+Opponent #4 of 5 shot you for 20 points!
+Opponent #5 of 5 shot you for 20 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A     ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    C  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  ~  ~  ~  ~  ~  ~  ~  ~  X  ~
+    H  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    J  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 500 / 2500.
+Enter your move: g9
+HIT!
+Opponent #1 of 5 shot you for 20 points!
+Opponent #2 of 5 shot you for 20 points!
+Opponent #3 of 5 shot you for 20 points!
+Opponent #4 of 5 shot you for 20 points!
+Opponent #5 of 5 shot you for 20 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A     ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    C  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  ~  ~  ~  ~  ~  ~  ~  ~  X  ~
+    H  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    J  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 600 / 2500.
+Enter your move: g9
+HIT!
+Opponent #1 of 5 shot you for 20 points!
+Opponent #2 of 5 shot you for 20 points!
+Opponent #3 of 5 shot you for 20 points!
+Opponent #4 of 5 shot you for 20 points!
+Opponent #5 of 5 shot you for 20 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A     ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    C  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  ~  ~  ~  ~  ~  ~  ~  ~  X  ~
+    H  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    J  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 700 / 2500.
+Enter your move: g9
+HIT!
+Opponent #1 of 5 shot you for 20 points!
+Opponent #2 of 5 shot you for 20 points!
+Opponent #3 of 5 shot you for 20 points!
+Opponent #4 of 5 shot you for 20 points!
+Opponent #5 of 5 shot you for 20 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A     ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    C  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  ~  ~  ~  ~  ~  ~  ~  ~  X  ~
+    H  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    J  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 800 / 2500.
+Enter your move: g9
+HIT!
+Opponent #1 of 5 shot you for 20 points!
+Opponent #2 of 5 shot you for 20 points!
+Opponent #3 of 5 shot you for 20 points!
+Opponent #4 of 5 shot you for 20 points!
+Opponent #5 of 5 shot you for 20 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A     ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    C  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  ~  ~  ~  ~  ~  ~  ~  ~  X  ~
+    H  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    J  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 900 / 2500.
+Enter your move: g9
+HIT!
+Opponent #1 of 5 shot you for 20 points!
+Opponent #2 of 5 shot you for 20 points!
+Opponent #3 of 5 shot you for 20 points!
+Opponent #4 of 5 shot you for 20 points!
+Opponent #5 of 5 shot you for 20 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A     ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    C  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  ~  ~  ~  ~  ~  ~  ~  ~  X  ~
+    H  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    J  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 1000 / 2500.
+Enter your move: g9
+HIT!
+Opponent #1 of 5 shot you for 20 points!
+Opponent #2 of 5 shot you for 20 points!
+Opponent #3 of 5 shot you for 20 points!
+Opponent #4 of 5 shot you for 20 points!
+Opponent #5 of 5 shot you for 20 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A     ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    C  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  ~  ~  ~  ~  ~  ~  ~  ~  X  ~
+    H  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    J  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 1100 / 2500.
+Enter your move: g9
+HIT!
+Opponent #1 of 5 shot you for 20 points!
+Opponent #2 of 5 shot you for 20 points!
+Opponent #3 of 5 shot you for 20 points!
+Opponent #4 of 5 shot you for 20 points!
+Opponent #5 of 5 shot you for 20 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A     ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    C  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  ~  ~  ~  ~  ~  ~  ~  ~  X  ~
+    H  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    J  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 1200 / 2500.
+Enter your move: g9
+HIT!
+Opponent #1 of 5 shot you for 20 points!
+Opponent #2 of 5 shot you for 20 points!
+Opponent #3 of 5 shot you for 20 points!
+Opponent #4 of 5 shot you for 20 points!
+Opponent #5 of 5 shot you for 20 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A     ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    C  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  ~  ~  ~  ~  ~  ~  ~  ~  X  ~
+    H  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    J  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 1300 / 2500.
+Enter your move: g9
+HIT!
+Opponent #1 of 5 shot you for 20 points!
+Opponent #2 of 5 shot you for 20 points!
+Opponent #3 of 5 shot you for 20 points!
+Opponent #4 of 5 shot you for 20 points!
+Opponent #5 of 5 shot you for 20 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A     ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    C  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  ~  ~  ~  ~  ~  ~  ~  ~  X  ~
+    H  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    J  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 1400 / 2500.
+Enter your move: g9
+HIT!
+Opponent #1 of 5 shot you for 20 points!
+Opponent #2 of 5 shot you for 20 points!
+Opponent #3 of 5 shot you for 20 points!
+Opponent #4 of 5 shot you for 20 points!
+Opponent #5 of 5 shot you for 20 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A     ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    C  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  ~  ~  ~  ~  ~  ~  ~  ~  X  ~
+    H  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    J  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 1500 / 2500.
+Enter your move: g9
+HIT!
+Opponent #1 of 5 shot you for 20 points!
+Opponent #2 of 5 shot you for 20 points!
+Opponent #3 of 5 shot you for 20 points!
+Opponent #4 of 5 shot you for 20 points!
+Opponent #5 of 5 shot you for 20 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A     ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    C  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  ~  ~  ~  ~  ~  ~  ~  ~  X  ~
+    H  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    J  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 1600 / 2500.
+Enter your move: g9
+HIT!
+Opponent #1 of 5 shot you for 20 points!
+Opponent #2 of 5 shot you for 20 points!
+Opponent #3 of 5 shot you for 20 points!
+Opponent #4 of 5 shot you for 20 points!
+Opponent #5 of 5 shot you for 20 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A     ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    C  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  ~  ~  ~  ~  ~  ~  ~  ~  X  ~
+    H  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    J  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 1700 / 2500.
+Enter your move: g9
+HIT!
+Opponent #1 of 5 shot you for 20 points!
+Opponent #2 of 5 shot you for 20 points!
+Opponent #3 of 5 shot you for 20 points!
+Opponent #4 of 5 shot you for 20 points!
+Opponent #5 of 5 shot you for 20 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A     ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    C  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  ~  ~  ~  ~  ~  ~  ~  ~  X  ~
+    H  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    J  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 1800 / 2500.
+Enter your move: g9
+HIT!
+Opponent #1 of 5 shot you for 20 points!
+Opponent #2 of 5 shot you for 20 points!
+Opponent #3 of 5 shot you for 20 points!
+Opponent #4 of 5 shot you for 20 points!
+Opponent #5 of 5 shot you for 20 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A     ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    C  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  ~  ~  ~  ~  ~  ~  ~  ~  X  ~
+    H  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    J  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 1900 / 2500.
+Enter your move: g9
+HIT!
+Opponent #1 of 5 shot you for 20 points!
+Opponent #2 of 5 shot you for 20 points!
+Opponent #3 of 5 shot you for 20 points!
+Opponent #4 of 5 shot you for 20 points!
+Opponent #5 of 5 shot you for 20 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A     ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    C  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  ~  ~  ~  ~  ~  ~  ~  ~  X  ~
+    H  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    J  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 2000 / 2500.
+Enter your move: g9
+HIT!
+Opponent #1 of 5 shot you for 20 points!
+Opponent #2 of 5 shot you for 20 points!
+Opponent #3 of 5 shot you for 20 points!
+Opponent #4 of 5 shot you for 20 points!
+Opponent #5 of 5 shot you for 20 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A     ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    C  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  ~  ~  ~  ~  ~  ~  ~  ~  X  ~
+    H  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    J  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 2100 / 2500.
+Enter your move: g9
+HIT!
+Opponent #1 of 5 shot you for 20 points!
+Opponent #2 of 5 shot you for 20 points!
+Opponent #3 of 5 shot you for 20 points!
+Opponent #4 of 5 shot you for 20 points!
+Opponent #5 of 5 shot you for 20 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A     ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    C  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  ~  ~  ~  ~  ~  ~  ~  ~  X  ~
+    H  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    J  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 2200 / 2500.
+Enter your move: g9
+HIT!
+Opponent #1 of 5 shot you for 20 points!
+Opponent #2 of 5 shot you for 20 points!
+Opponent #3 of 5 shot you for 20 points!
+Opponent #4 of 5 shot you for 20 points!
+Opponent #5 of 5 shot you for 20 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A     ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    C  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  ~  ~  ~  ~  ~  ~  ~  ~  X  ~
+    H  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    J  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 2300 / 2500.
+Enter your move: g9
+HIT!
+Opponent #1 of 5 shot you for 20 points!
+Opponent #2 of 5 shot you for 20 points!
+Opponent #3 of 5 shot you for 20 points!
+Opponent #4 of 5 shot you for 20 points!
+Opponent #5 of 5 shot you for 20 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A     ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    C  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  ~  ~  ~  ~  ~  ~  ~  ~  X  ~
+    H  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    J  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 2400 / 2500.
+Enter your move: g9
+HIT!
+Opponent #1 of 5 shot you for 20 points!
+Opponent #2 of 5 shot you for 20 points!
+Opponent #3 of 5 shot you for 20 points!
+Opponent #4 of 5 shot you for 20 points!
+Opponent #5 of 5 shot you for 20 points!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A     ~  ~  ~  ~  ~  ~  ~  ~  ~
+    B  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    C  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    D  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    E  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    F  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    G  ~  ~  ~  ~  ~  ~  ~  ~  X  ~
+    H  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    I  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+    J  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~
+Opponents points: 2500 / 2500.
+I'm sorry, your fort is all wet! They win!
+
+Game Board:
+       1  2  3  4  5  6  7  8  9 10
+    A     .  .  .  .  .  .  .  .  .
+    B  .  .  .  .  .  .  .  .  .  .
+    C  .  .  .  .  .  .  .  E  .  .
+    D  .  .  .  .  .  .  .  E  E  .
+    E  .  D  D  .  .  .  .  E  .  .
+    F  .  D  D  .  A  A  A  E  .  .
+    G  .  D  .  .  A  A  .  B  b  .
+    H  .  .  .  .  .  .  .  .  B  .
+    I  .  C  .  .  .  .  .  .  B  B
+    J  .  C  C  C  C  .  .  .  .  .
+Opponents points: 2500 / 2500.
+(Lower case fort letters are where you shot.)
+PS C:\all-my-code\CMPT213-Code\2024-Spring\As3-FortDefense>
+

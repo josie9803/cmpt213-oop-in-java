@@ -1,0 +1,139 @@
+**********************************
+Welcome to the Board Game Tracker 
+by Your Name Here.
+**********************************
+
+*************
+* Main Menu *
+*************
+1. List games
+2. Add a new game
+3. Remove a game
+4. Record that you played a game
+5. DEBUG: Dump objects (toString)
+6. Exit
+> -1
+Error: Please enter a selection between 1 and 6
+> 7
+Error: Please enter a selection between 1 and 6
+> 1
+
+List of Games:
+****************
+No games found.
+
+*************
+* Main Menu *
+*************
+1. List games
+2. Add a new game
+3. Remove a game
+4. Record that you played a game
+5. DEBUG: Dump objects (toString)
+6. Exit
+> 3
+
+List of Games:
+****************
+No games found.
+
+*************
+* Main Menu *
+*************
+1. List games
+2. Add a new game
+3. Remove a game
+4. Record that you played a game
+5. DEBUG: Dump objects (toString)
+6. Exit
+> 4
+
+List of Games:
+****************
+No games found.
+
+*************
+* Main Menu *
+*************
+1. List games
+2. Add a new game
+3. Remove a game
+4. Record that you played a game
+5. DEBUG: Dump objects (toString)
+6. Exit
+> 5
+All game objects:
+
+*************
+* Main Menu *
+*************
+1. List games
+2. Add a new game
+3. Remove a game
+4. Record that you played a game
+5. DEBUG: Dump objects (toString)
+6. Exit
+> 2
+Enter the game's name:   
+ERROR: Name must be at least 1 character long.
+Enter the game's name:   Test Game Name Here
+Enter the game's weight: 0
+ERROR: Weight must be between 1.0 and 5.0
+Enter the game's weight: -1
+ERROR: Weight must be between 1.0 and 5.0
+Enter the game's weight: 5.1
+ERROR: Weight must be between 1.0 and 5.0
+Enter the game's weight: 5
+
+*************
+* Main Menu *
+*************
+1. List games
+2. Add a new game
+3. Remove a game
+4. Record that you played a game
+5. DEBUG: Dump objects (toString)
+6. Exit
+> 3
+
+List of Games:
+****************
+1. Test Game Name Here, 5.0 weight, 0 play(s)
+(Enter 0 to cancel)
+> -1
+Error: Please enter a selection between 0 and 1
+> 2
+Error: Please enter a selection between 0 and 1
+> 0
+
+*************
+* Main Menu *
+*************
+1. List games
+2. Add a new game
+3. Remove a game
+4. Record that you played a game
+5. DEBUG: Dump objects (toString)
+6. Exit
+> 4
+
+List of Games:
+****************
+1. Test Game Name Here, 5.0 weight, 0 play(s)
+(Enter 0 to cancel)
+> -1
+Error: Please enter a selection between 0 and 1
+> 2
+Error: Please enter a selection between 0 and 1
+> 0
+
+*************
+* Main Menu *
+*************
+1. List games
+2. Add a new game
+3. Remove a game
+4. Record that you played a game
+5. DEBUG: Dump objects (toString)
+6. Exit
+> 6
